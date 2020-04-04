@@ -1,0 +1,500 @@
+.globalheader1      {
+  background-color  : #629be5;
+}
+.globalheader2      {
+  background-color  : #b0c4de;
+}
+.globallink_active  {
+  color             : #FFFFFF;
+}
+.globallink_noactive{
+  color             : #003399;
+}
+.globallink_etc     {
+  color             : #FFFF33;
+}
+.pageTitleMk        {
+  color             : #949495;
+}
+.login {
+  border-right      : #A9A9A9 1px solid;
+  border-top        : #A9A9A9 1px solid;
+  border-left       : #A9A9A9 1px solid;
+  border-bottom     : #A9A9A9 1px solid;
+  margin-top        : 5px;
+}
+.news {
+  border-right      : #DCDCDC 1px solid;
+  border-top        : #DCDCDC 1px solid;
+  border-left       : #DCDCDC 1px solid;
+  border-bottom     : #DCDCDC 1px solid;
+  margin-top        : 3px;
+}
+.news2 {
+  border-right      : #DCDCDC 1px solid;
+  border-top        : #DCDCDC 1px solid;
+  border-left       : #DCDCDC 1px solid;
+  border-bottom     : #DCDCDC 1px solid;
+  margin-top        : 3px;
+}
+.news3 {
+  border-right      : #DCDCDC 1px solid;
+  border-top        : #FFFFFF 0px solid;
+  border-left       : #DCDCDC 1px solid;
+  border-bottom     : #DCDCDC 1px solid;
+  margin-top        : 3px;
+}
+.news_title {
+  border-bottom     : #DCDCDC 1px solid;
+  color             : #808080;
+  background-color  : #F5F5F5;
+  font-size         : 12px;
+  font-weight       : bold;
+  height            : 12px;
+  text-align        : left;
+}
+.news_date {
+  font-size         : 12px;
+  color             : #b30000;
+}
+.news_normal {
+  font-size         : 12px;
+  color             : #444444;
+  text-align        : left;
+}
+
+A.newslink:link {
+  color             : #444444;
+  text-decoration   : none
+  text-align        : left;
+}
+A.newslink:visited {
+  color             : #444444;
+  text-decoration   : none
+}
+A.newslink:hover {
+  color             : #b30000;
+  text-decoration   : underline
+}
+body  {
+  color             : #000000;
+  background-color  : #FFFFFF;
+  -webkit-text-size-adjust: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ÉqÉâÉMÉmäpÉS ProN W3", Hiragino Kaku Gothic ProN, Arial, "ÉÅÉCÉäÉI", Meiryo, sans-serif;
+}
+form  {
+  margin-top        : 0px;
+  margin-bottom     : 0px;
+}
+td    {
+  word-break        : normal;
+  overflow-wrap     : break-word;
+  -ms-word-wrap     : break-word;
+  word-wrap         : break-word;
+}
+span  {
+  word-break        : normal;
+  overflow-wrap     : break-word;
+  -ms-word-wrap     : break-word;
+  word-wrap         : break-word;
+}
+div   {
+  word-break        : normal;
+  overflow-wrap     : break-word;
+  -ms-word-wrap     : break-word;
+  word-wrap         : break-word;
+}
+p     {
+  word-break        : normal;
+  overflow-wrap     : break-word;
+  -ms-word-wrap     : break-word;
+  word-wrap         : break-word;
+}
+a     {
+  word-break        : normal;
+  overflow-wrap     : break-word;
+  -ms-word-wrap     : break-word;
+  word-wrap         : break-word;
+}
+a:link     { color: #333333; text-decoration: none; }
+a:visited  { color: #333333; text-decoration: none; }
+a:hover    { color: #0068B7; text-decoration: underline; }
+a:active   { background-color: transparent; }
+
+hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  height: 1px;
+}
+
+.bodyEdit  {
+  margin-top        : 0px;
+  margin-bottom     : 0px;
+  margin-right      : 0px;
+  margin-left       : 0px;
+}
+
+.default            {
+  font-size         : 100%;
+  /*font-family       : "ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro","ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;*/
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ÉqÉâÉMÉmäpÉS ProN W3", Hiragino Kaku Gothic ProN, Arial, "ÉÅÉCÉäÉI", Meiryo, sans-serif;
+}
+.pageTitle          {
+  font-size         : 12pt;
+  font-weight       : bold;
+}
+.menuLink           {
+  font-size         : 80%;
+  font-weight       : bold;
+}
+.calendarFontsize{
+  font-size         : 80%;
+}
+.groupHeader        {
+  font-size         : 12pt;
+  font-weight       : bold;
+  color             : #FFFFFF;
+  background-color  : #629be5;
+  padding-top       : 5px;
+  padding-bottom    : 5px;
+  padding-left      : 10px;
+  padding-right     : 10px;
+}
+.groupRead  {
+  font-size         : 11pt;
+  color             : #000000;
+  background-color  : #DBEBFB;
+  padding-left      : 10px;
+  padding-right     : 10px;
+  padding-top       : 5px;
+  padding-bottom    : 5px;
+}
+.groupItem {
+  font-size         : 11pt;
+  color             : #000000;
+  background-color  : #EEEEEE;
+  padding-left      : 10px;
+  padding-right     : 10px;
+  padding-top       : 5px;
+  padding-bottom    : 5px;
+}
+.groupItemHeader {
+  font-size         : 11pt;
+  font-weight       : normal;
+  color             : #000000;
+  background-color  : #bbdbf3;
+  padding-top       : 5px;
+  padding-bottom    : 5px;
+  padding-left      : 10px;
+  padding-right     : 10px;
+}
+.itemHeader         {
+  background-color  : lightblue;
+}
+.itemTitle          {
+  font-size         : 80%;
+  font-weight       : normal;
+  background-color  : #DBEBFB;
+}
+.itemdata           {
+  font-size         : 11pt;
+  font-weight       : normal;
+  padding-left      : 5pt;
+  color             : #000000;
+  background-color  : #FFFFFF;
+}
+.comp_head          {
+  font-size         : 80%;
+  font-weight       : normal;
+  height            : 20px;
+  color             : #FFFFFF;
+  background-color  : #629be5;
+}
+.comp_line          {
+  background-color  : #629be5;
+  height            : 1px;
+}
+.field_list         {
+  font-size         : 80%;
+  font-weight       : normal;
+  background-color  : #DBEBFB;
+}
+.title              {
+  color             : #FFFFFF;
+  background-color  : #629be5;
+}
+.title2             {
+  color             : #3366CC;
+  background-color  : #EFEFEF;
+}
+.footer             {
+  font-size         : 90%;
+  font-weight       : normal;
+}
+.line               {
+  height            : 1px;
+  background-color  : #cccccc;
+}
+.errHeader          {
+  font-size         : 110%;
+  font-weight       : bold;
+  color             : white;
+  background-color  : red;
+  padding           : 2 10 2 2 ;
+}
+.errMsg             {
+  font-size         : 100%;
+  font-weight       : normal;
+  color             : red;
+}
+.textAttention      {
+  font-size         : 80%;
+  font-weight       : bold;
+  padding           : 2 2 2 2 ;
+  color             : red;
+}
+.mention            {
+  font-size         : 110%;
+  font-weight       : bold;
+}
+.right-justified    {
+  text-align        : right;
+}
+.left-justified     {
+  text-align        : left;
+}
+.center-justified   {
+  text-align        : center;
+}
+.text               {
+  font-size         : 11pt;
+  font-weight       : normal;
+  color             : black;
+  background-color  : white;
+  ime-mode          : active;
+}
+.number             {
+  font-size         : 11pt;
+  font-weight       : normal;
+  text-align        : right;
+  ime-mode          : disabled;
+  background-color  : white;
+}
+.alphameric         {
+  font-size         : 11pt;
+  text-align        : left;
+  ime-mode          : disabled;
+  background-color  : white;
+}
+.button             {
+  font-size         : x-small;
+  font-weight       : normal;
+  color             : #000000;
+  background-color  : buttonface;
+}
+.mark_button        {
+  font-size         : x-small;
+  font-weight       : normal;
+  color             : red;
+  background-color  : buttonface;
+}
+.auto     {ime-mode : auto;}
+.active   {ime-mode : active;}
+.inactive {ime-mode : inactive;}
+.disable  {ime-mode : disabled;}
+
+.base_button {
+  width             : 160px;
+  height            : 40px;
+  font-size         : 11pt;
+  font-weight       : bold;
+  color             : #444444;
+}
+.base_button2 {
+  width             : 120px;
+  height            : 30px;
+  font-size         : 11pt;
+  font-weight       : bold;
+  color             : #444444;
+}
+.base_button_250 {
+  width             : 250px;
+  height            : 40px;
+  font-size         : 11pt;
+  font-weight       : bold;
+  color             : #444444;
+}
+.announce_table {
+  border            : 1px solid #a9a9a9;
+  border-spacing    : 0px;
+  empty-cells       : show;
+  padding           : 10px;
+  border-collapse   : collapse;
+}
+.announce_item_l {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #ffffff;
+  font-weight       : nomal;
+  padding           : 12px;
+  border-left       : 1px solid #A9A9A9;
+  padding           : 12px 0 12px 5px;
+  border-top        : 1px solid #A9A9A9;
+  border-bottom     : 1px solid #A9A9A9;
+  text-align        : left;
+}
+.announce_item_m {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #ffffff;
+  font-weight       : nomal;
+  padding           : 12px 0 12px 0;
+  border-left       : 0;
+  border-right      : 0;
+  border-top        : 1px solid #A9A9A9;
+  border-bottom     : 1px solid #A9A9A9;
+  text-align        : center;
+}
+.announce_item_r {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #ffffff;
+  font-weight       : nomal;
+  padding           : 12px 5px 12px 0
+  border-left       : 0;
+  border-right      : 1px solid #A9A9A9;
+  border-top        : 1px solid #A9A9A9;
+  border-bottom     : 1px solid #A9A9A9;
+  text-align        : left;
+}       
+/* ó\ñÒ */
+.reserve_table {
+  border            : 1px solid #a9a9a9;
+  border-spacing    : 0px;
+  empty-cells       : show;
+  padding           : 10px;
+  border-collapse   : collapse;
+}
+.reserve_title {
+  font-size         : 14pt;
+  color             : #4d4d4d;
+  background-color  : #D3D082;
+  font-weight       : bold;
+  padding           : 8px 12px 8px 12px;
+  border            : 1px solid #A9A9A9;
+}
+.reserve_week {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #F9F8E2;
+  font-weight       : nomal;
+  padding           : 5px 12px 5px 12px;
+  border            : 1px solid #A9A9A9;
+}
+.reserve_week_sat {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : lightblue;
+  font-weight       : nomal;
+  padding           : 5px 12px 5px 12px;
+  border            : 1px solid #A9A9A9;
+}
+.reserve_week_sun {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #F9E2EA;
+  font-weight       : nomal;
+  padding           : 5px 12px 5px 12px;
+  border            : 1px solid #A9A9A9;
+}
+.reserve_day {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #E6E5BC;
+  font-weight       : nomal;
+  padding           : 5px 12px 5px 12px;
+  border            : 1px solid #A9A9A9;
+}
+.reserve_none {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #C0C0C0;
+  font-weight       : nomal;
+  padding           : 5px 12px 5px 12px;
+  border            : 1px solid #A9A9A9;
+}
+.reserve_value {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #ffffff;
+  font-weight       : nomal;
+  padding           : 10px 12px 10px 12px;
+  border            : 1px solid #A9A9A9;
+}
+A.nakama_menu:link {
+  font-size         : 14pt;
+  font-weight       : bold;
+  color             : #F0A000;
+  text-decoration   : none
+  text-align        : left;
+}
+A.nakama_menu:active {
+  font-size         : 14pt;
+  font-weight       : bold;
+  color             : #F0A000;
+  text-decoration   : none
+  text-align        : left;
+}
+A.nakama_menu:hover {
+  font-size         : 14pt;
+  font-weight       : bold;
+  color             : #F0A000;
+  text-decoration   : none
+  text-align        : left;
+}
+A.nakama_menu:visited {
+  font-size         : 14pt;
+  font-weight       : bold;
+  color             : #F0A000;
+  text-decoration   : none
+  text-align        : left;
+}
+.nakama_menu_guide {
+  font-size         : 11pt;
+  color             : #999900;
+  font-weight       : normal;
+  padding-left      : 20px;
+}
+.conf_table {
+  border            : 1px solid #aed4f9;
+  border-spacing    : 0px;
+  empty-cells       : show;
+  padding           : 10px;
+  border-collapse   : collapse;
+}
+
+.conf_header {
+  font-size         : 12pt;
+  color             : #4d4d4d;
+  background-color  : #DBEBFB;
+  font-weight       : bold;
+  padding           : 10px;
+  border            : 0px solid #aed4f9;
+}
+.conf_item {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #DBEBFB;
+  font-weight       : bold;
+  padding           : 10px;
+  border            : 1px solid #aed4f9;
+}
+.conf_value {
+  font-size         : 11pt;
+  color             : #4d4d4d;
+  background-color  : #ffffff;
+  font-weight       : nomal;
+  padding           : 10px;
+  border            : 1px solid #aed4f9;
+}

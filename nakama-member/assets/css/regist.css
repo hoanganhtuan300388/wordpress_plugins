@@ -1,0 +1,109 @@
+.ReadOnly{
+   background-color  : #FFFFCC
+}
+textarea {
+   display: inline-block;
+   padding: 4px 6px;
+   font-size: 16px;
+   margin-bottom: 10px;
+   line-height: 20px;
+   color: #555;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   cursor: auto;
+   border: 1px solid #a9a9a9;
+}
+select, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+   display: inline-block;
+   height: 30px;
+   padding: 4px 6px;
+   font-size: 16px;
+   line-height: 20px;
+   color: #555;
+   vertical-align: middle;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   cursor: auto;
+   border: 1px solid #a9a9a9;
+}
+input[type="button"]{
+   padding: 4px 6px;
+   color: #555;
+   background: #dddddd;
+   vertical-align: middle;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   cursor: auto;
+   border: 1px solid #a9a9a9;
+}
+.LargeItem {
+   font-size: 18pt;
+   font-weight: bold;
+}
+.top-edit {
+    background: url(../img/member/regist/hlbg5.gif) no-repeat left center;
+    padding: 10px 0px 4px 70px;
+}
+.base_button {
+   margin: 0 5px;
+}
+.btn_regist{
+   width: 100px;
+   height: 30px;
+}
+select {
+   background: #fff;
+}
+@media (max-width: 768px){
+   .regist_page .RegItem_add {
+      padding: 5px;
+      margin-bottom: 10px;
+   }
+}
+@media (max-width: 425px){
+   .des_pwd {
+      display: block;
+      width: 100%;
+   }
+   .dispPPassBtn {
+      display: block;
+      width: 100%;
+   }
+   td.optionGrb label{
+      display: block;
+      width: 100%;
+   }
+   .regist_page .base_button {
+      display: block;
+      margin: 5px 0px;
+   }
+   span.M_CONTACTDEST {
+      display: block;
+   }
+}@media (max-width: 320px){
+   .base_button {
+      display: block;
+      margin: 5px 0px;
+   }
+   .display_block {
+      display: block;
+   }
+}
+.w-note{
+   width: 50%;
+}
+.list-button{
+   width: 50%;
+   text-align: right;
+}
+.list-button li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 20px;
+}
+.btn-zipcode{
+   padding: 7px 7px 6px!important;
+}

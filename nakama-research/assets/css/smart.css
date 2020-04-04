@@ -1,0 +1,110 @@
+@media only screen and (max-width:768px){
+	.ul-common li {
+	    margin-bottom: 20px;
+	}
+	.list_page td.pagi_sp{
+		display: block!important;
+	}
+	.list_page td.pagi_pc{
+		display: none!important;
+	}
+	.list_page .center_logo{
+		text-align: center;
+	}
+	.list_page td.pagi_sp img {
+	    width: 9px;
+	    height: 11px;
+	    position: relative;
+	    top: 1px;
+	}
+	table.formSearch td{
+		display: block;
+		width: 100%;
+	}
+	.margin_div {
+	  margin: 15px auto;
+	}
+	.accept_option {
+	    margin: 15px auto!important;
+	}
+}
+@media (max-width : 660px){
+	.ans_target table.page_setup_width, .ans_research table.page_setup_width,
+	.ans_complete table.page_setup_width{
+		width: 100%;
+	}
+	.ans_target table.page_setup_width td{
+		width: 100%;
+		display: block;
+	}
+	.ans_target .RegValueTitle{
+		height: unset;
+	}
+	.ans_target input.base_button, .ans_research input.base_button,
+	.ans_complete input.base_button{
+		width: 100%;
+	}
+	.ans_target .RegValueTitle center {
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width:480px){
+	.list_page table.formloading td{
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+	.list_page table.formSearch td {
+		text-align: left;
+	}
+	.list_page table.formSearch td span{
+		display: block;
+		width: 100%;
+		margin-top: 5px;
+	}
+	#listOpe1 {
+		margin: 0!important;
+	}
+	#listOpe2 {
+		margin-top: 0!important;
+	}
+}
+@media only screen and (max-width:375px){
+	.list_page table.formloading td{
+		display: block;
+		width: 100%;
+	}
+	.list_page table.formSearch td{
+		display: block;
+		width: 100%;
+	}
+}
+@media only screen and (max-width:425px){
+	.detail_page table.detail_table td {
+		width: unset!important;
+		display: block;
+	}
+	.detail_page table.detail_table tr {
+		margin-bottom: 5px;
+	}
+	.question_page table.groubBtn td,.question2_page table.groubBtn td {
+		width: 100%;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.question_page table.groubBtn .base_button, .question2_page table.groubBtn .base_button {
+		width: 80%;
+	}
+	.list_page table.formSearch td span{
+		display: block;
+		width: 100%;
+	}
+	.list_page table.formSearch .btnSearch{
+		margin-top: 5px;
+	}
+}
+@media only screen and (max-width:320px){
+	.list_page table.formSearch .inputSearch{
+		margin-top: 5px;
+	}
+}

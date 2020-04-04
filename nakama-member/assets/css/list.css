@@ -1,0 +1,177 @@
+.statics{
+	margin: 10px 0;
+	overflow: hidden;
+}
+.main-table-scroll {
+    position: relative;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.main-list{
+	position: relative;
+}
+.main-list #list{
+	overflow-x: scroll;
+	width: 100%;
+	margin-bottom: 10px;
+	table-layout: fixed;
+	empty-cells: show;
+	border: #DCDCDC 1px solid;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+.main-list #list td{
+	padding: 7px;
+	width: 100%;
+}
+.main-list #list tbody td a{
+	color: blue;
+}
+.main-list #list tbody td a:hover{
+	color: #f00;
+}
+.main-list #list td.first{
+	width: 30px;
+}
+.main-list #list tr td:first-child{
+	text-align: center;
+}
+.main-list #list .ListRow1 td {
+	background-color: #ddd;	
+}
+.main-list #list .ListRow2 td{
+	background-color: #eee;	
+}
+.main-list #list .ListHeaderMemberList td:first-child {
+	background-color: #abcdef;
+}
+.main-list #list td:first-child {
+	position: sticky;
+	position: -webkit-sticky;
+	left: 0px;
+	width: 5px;
+}
+.main-list #list td.second{
+	width: 30px;	
+}
+.main-list #list td.common{
+	width: 50px;	
+}
+.main-list #list td.common_end{
+	width: 100px;	
+}
+.listOpe-right li{
+	display: inline-block;
+	margin: 0 4px;
+	position: relative;
+}
+.listOpe-right li.nolink_startpage,
+.listOpe-right li.nolink_prevpage{
+	padding-left: 18px;
+}
+.listOpe-right li a img {
+	position: absolute;
+    top: 6px;
+    left: 0;
+}
+.listOpe-right li.link_nextpage,
+.listOpe-right li.link_lastpage{
+	padding-right: 18px;
+}
+.listOpe-right li.link_nextpage a img, 
+.listOpe-right li.link_lastpage a img{
+	left: auto;
+	right: 0;
+}
+.listOpe-right li .none-view{
+	display: none;
+}
+.listOpe-right li a{
+	color: blue;
+	text-decoration: underline;
+}
+.listOpe-right li a img{
+	position: absolute;
+}
+.listOpe-right li.none_event a{
+	color: #aaa;
+	text-decoration: none;
+}
+.listOpe-right li a:hover{
+	text-decoration: underline;
+}
+.list-form{
+	margin: 20px 0;
+	overflow: hidden;
+}
+.list-form li{
+	display: flex;
+	list-style: none;
+	vertical-align: middle;
+}
+.list-form li label input{
+	margin-right: 3px !important;
+}
+.list-form li dl dt{
+	float: left;
+}
+.list-form li dl dd{
+	float: left;
+	padding-left: 0;
+	margin-left: 10px;
+}
+.list-form li.end a.btn_color{
+	padding-top: 10px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.end-list-href li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+}
+.end-list-href li a{
+	text-decoration: none;
+}
+.search_select{
+	width: 400px;
+	margin: 0 10px;
+}
+
+.listrow:nth-of-type(odd){
+	background-color: #eee;
+}
+select.lgGid {
+	padding: 5px;
+	margin: 0 10px 10px;
+	width: 50%;
+}
+.noDisplay {
+	display: none;
+}
+a.setting_view {
+	padding-left: 18px;
+    background: url('../img/member/application_view_columns.png') left no-repeat;
+}
+a.setting_sort {
+	padding-left: 18px;
+    background: url('../img/member/application_put.png') left no-repeat;
+}
+.btn-add-change{
+	background: #ddd;
+    padding: 5px 13px 6px;
+    border: 1px solid #a9a9a9;
+    text-decoration: none;
+}
+.top_type{
+	margin-bottom: 5px;
+}
+select.top_sta{
+	width: 100px;
+}
+span.combo {
+	margin: 0 8px;
+}

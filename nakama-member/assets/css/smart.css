@@ -1,0 +1,404 @@
+@media (max-width: 1200px){
+	.container{
+		width: 100%;
+		max-width: 100%;
+		min-width: 0;
+	}
+}
+@media (max-width: 992px){
+	.ul-common-edit li:first-child{
+		width: 50%;
+	}
+	.ul-common-edit li input[type="password"]{
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 768px){
+	.flex-sp {
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -ms-flex-direction: colum;
+	    flex-direction: column;
+	}
+	.input_item_need {
+		background: #F5F5F5;
+		margin: 5px 0;
+		padding: 5px 0 !important;
+	}
+	.input_table_noline{
+		margin-top: 10px;
+	}
+	.input_table_noline tr.first{
+		display: none;
+	}
+	.input_table_noline{
+		border-collapse: collapse;
+		border: none;
+		padding: 0;
+		display: flex;
+	}
+	.input_table_noline span {
+		display: inline-block;
+	}
+	.input_table_noline tbody, .input_table_noline tr{
+		width: 100%;
+		display: block;
+	}
+	.input_table_noline td{
+		display: block;
+		border: none;
+		padding: 5px 0;
+		width: 100%;
+		overflow: hidden;
+		white-space: inherit;
+	}
+	.input_table_noline .input_value{
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	.input_table_noline .input_value input[type="text"]{
+		width: 100% !important;
+		box-sizing: border-box;
+		margin-bottom: 5px;
+		max-width: 100% !important;
+	}
+	.RegItem_noline {
+		background: #eee;
+	}
+	img {
+		max-width: 100%;
+	}
+	#table_setting td.RegValue input{
+		width: 100%;
+		max-width: 100%;
+		margin: 5px 0;
+	}
+	#table_setting td.RegValue input[type="radio"] {
+		width: 4%;
+    	display: inline-block;
+	}
+	#table_setting td.RegValue input.w_60px {
+		width: 60px;
+	}
+	.regist_page *{
+		box-sizing: border-box;
+		/* display: flex;
+    	flex-direction: column; */
+	}
+	.regist_page table{
+		width: 100%;
+	}
+	p{
+		text-align: justify;
+	}
+	.input_table{
+		margin-top: 10px;
+	}
+	.input_table tr.first{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.input_table{
+		border-collapse: collapse;
+		border: none;
+		padding: 0;
+		display: flex;
+	}
+	.input_table span {
+		display: block;
+	}
+	.input_table tbody, .input_table tr{
+		width: 100%;
+		display: block;
+	}
+	.input_table td{
+		display: block;
+		border: none;
+		padding: 0;
+		width: 100%;
+		overflow: hidden;
+		white-space: inherit;
+	}
+	.input_title {
+		padding: 5px 0 !important;
+	}
+	.input_item {
+		background: #F5F5F5;
+		padding: 5px 0 !important;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+	.input_table td.RegItem.item-min{
+		width: 98.2% !important;
+	}
+	.input_table tr.hidden_smp{
+		display: none;
+	}
+	.input_table .input_item_Need{
+		padding: 5px 0;
+		background-color: #F5F5F5;
+		margin-bottom: 10px;
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+	.input_table .input_value{
+		margin-bottom: 10px;
+		text-align: left;
+		display: block;
+    	width: 100%;
+    	clear: both;
+	}
+	.input_table .input_value input[type="text"]{
+		width: 100% !important;
+		box-sizing: border-box;
+		margin-bottom: 5px;
+		max-width: 100% !important;
+	}
+	.ul-button li{
+		margin: 0 4px;
+	}
+	.ul-button li .base_button{
+		width: 120px;
+	}
+	.w-note{
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+	.list-button{
+		width: 100%;
+		text-align: right;
+	}
+	.list-button li{
+		margin-left: 0;
+	}
+	.input_table .RegField{
+		margin-bottom: 10px;
+		text-align: left;
+		padding-left: 5px !important;
+	}
+	.none-br{
+		display: none !important;
+	}
+	.RegGroup{
+		margin-bottom: 10px;
+		font-size: 16px;
+		border: 1px solid #a9a9a9 !important;
+	}
+	.RegItem{
+		background: #eee;
+		padding: 5px 0 !important;
+		font-weight: bold;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+	.ReadOnly{
+		padding: 5px 7px !important;
+	}
+	.RegValue{
+		margin-bottom: 15px;
+	}
+	.ul-common{
+		margin-top: 0;
+	}
+	.ul-common li{
+		margin-bottom: 20px;
+	}
+	.ul-common li .base_button{
+		width: 118px;
+	}
+	.text-select{
+		text-align: left;
+	}
+
+	/* edit_kojin */
+	.ul-common-edit {
+		overflow: hidden;
+		display: block;
+	}
+	.ul-common-edit li input[type="password"]{
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.ul-common-edit li:first-child{
+		width: 60%;
+	}
+	.ul-common-edit-end li{
+		width: 100% !important;
+	}
+	.ul-common-edit li span{
+		margin-right: 0;
+	}
+	.none-tr{
+		display: none !important;
+	}
+	.ul-url{
+		display: flex;
+	}
+	/* end edit_kojin*/
+
+	/* list */
+	.search_select{
+		width: 50%;
+	}
+	/* end list*/
+
+	.top-header .center-logo{
+		text-align: center;
+		margin: 10px 0;
+	}
+	.top-header .center-logo img{
+		width: 100%;
+    	max-width: 384px;
+	}
+	.main-list #list{
+		border: #DCDCDC 1px solid;
+		width: 100%;
+		white-space: nowrap;
+	}
+	.main-list #list .ListRow2 td:first-child {
+		background-color: #eee;
+	}
+	.end-list-href li{
+		display: block;
+	}
+	.statics .right{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.statics .right .left.listOpe-right{
+		display: block;
+		clear: both;
+		margin: 10px 0;
+	}
+	.statics .right .right.listOpe-right{
+		display: block;
+		clear: both;
+	}
+	.statics .right .right.listOpe-right li{
+		vertical-align: top;
+	}
+	.listOpe-right li .none-view{
+		display: block;
+	}
+	.listOpe-right li img {
+		width: 12px;
+		height: 11px;
+		position: relative;
+		top: 1px;
+	}
+	.listOpe-right{
+	    display: block;
+	    clear: both;
+	    float: left;
+	}
+	.listOpe-right li span{
+		display: none;
+	}
+	.label_max_char{
+		display: block;
+		margin-top: 10px;
+	}
+	body{
+		padding-top: 10px;
+	}
+	body.device-mobile .vk-mobile-nav-menu-btn{
+		top: 31px;
+	}
+	.siteHeader{
+		top: 19px;
+	}
+	.add_user_name_logined{
+		font-size: 12px;
+		right: 0 !important;
+		background: white;
+		top: 76px !important;
+		text-align: center !important;
+	}
+	.vk-mobile-nav.vk-mobile-nav-open{
+		top: 32px;
+	}
+	.setting-display-table tr td:first-child {
+		text-align: left !important;
+		padding: 5px 7px !important;
+	}
+	.setting-table-param td {
+		border: none !important;
+		padding: 0 !important;
+	}
+	.img_loading {
+		left: 0;
+		margin: 0 20%;
+		position: relative;
+		padding: 10px 30px;
+	}
+	.flex-sp {
+		display: flex !important;
+		flex-direction: column;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:colum;
+        flex-direction:colum;
+	}
+}
+@media (max-width: 425px){
+	.input_table td.RegItem.item-min {
+	    width: 96.2% !important;
+	}
+	.update_page table td {
+		display: block;
+	}
+	.base_button {
+		width: 100%;
+	}
+	.ul-button li{
+		width: 100%;
+	}
+	.ul-button li .base_button{
+		width: 100%;
+	}
+}
+@media (max-width: 375px){
+	.btn_kojin3{
+		width: 120px
+	}
+}
+@media (max-width: 320px){
+	.input_table td.RegItem.item-min {
+	    width: 95.2% !important;
+	}
+	.ul-common-edit li:first-child {
+		width: 56%;
+	}
+	.btn_kojin{
+		width: 170px;
+		font-size: 12px;
+	}
+	.btn_kojin2{
+		width: 120px
+	}
+	.btn_kojin3{
+		width: 110px
+	}
+	.ul-url{
+		display: block;
+	    margin-bottom: 15px;
+	    overflow: hidden;
+	    clear: both;
+	}
+	.ul-url li:first-child {
+	    width: 38%;
+	}
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100% !important;
+    max-width: none;
+    margin: 20px 0px 100px 0px !important
+}
+
+.head h3 {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    clear: both;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid#699ED2;
+    display: inline;
+}
+
+.complete h4 {
+    border: 1px solid silver;
+    width: 500px;
+    padding: 32px 0;
+    font-size: 100%;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table td.input_label {
+    border: 1px solid #a9a9a9;
+    width: 190px;
+    background-color: #bbdbf3;
+    color: #333;
+    font-size: 10pt;
+    font-weight: 400;
+    padding: 7px 10px;
+    text-align: left;
+}
+
+.table td.input_data {
+    border: 1px solid #a9a9a9;
+    background-color: #FFF;
+    font-size: 10pt;
+    font-weight: 400;
+    padding: 7px 10px;
+    text-align: left;
+}
+
+.table td.input_data select {
+    padding: 1px;
+    font-size: medium;
+    border: 1px solid #a9a9a9;
+    background-color: #FFF;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.table td.input_data input[type=text] {
+    height: 30px;
+    font-size: 12pt;
+    padding: 2px 4px;
+    width: 95%;
+}
+
+.table td.input_data textarea {
+    line-height: 1.4;
+    font-size: 12pt;
+    padding: 2px 4px;
+}
+
+.info {
+    width: 35px;
+    height: 17px;
+    float: right;
+    background-image: url("../img/required.gif");
+}
+
+.table td label {
+    margin: 0px 20px 0px 5px;
+    font-weight: normal;
+}
+
+.btn-upload-file {
+    width: 110px;
+    height: 100px;
+    border: none;
+    background-image: url("../img/addfile.png");
+}
+
+.btn-upload-file:hover {
+    cursor: pointer;
+}
+
+.btn-user-voice {
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: 16px;
+    font-weight: 700;
+}
+
+.btn-user-voice:hover {
+    background-color: #4a6c9b;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.modal-upload-file {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    display: none;
+}
+
+.modal-bg {
+    background-color: #00a699;
+    opacity: .3;
+    filter: Alpha(Opacity=30);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.modal-box {
+    width: 850px;
+    height: 550px;
+    background-color: #fff;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    margin: 2% auto 0 auto;
+    padding: .2em;
+}
+
+.box-head {
+    background: url("../img/bg-box-head.png") 50% 50% repeat-x #ccc;
+    padding: .3em 1em;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    color: #222;
+    border: 1px solid #aaa;
+    font-weight: 700;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.box-head .btn-close {
+    position: absolute;
+    right: .3em;
+    top: 50%;
+    width: 19px;
+    margin: -10px 0 0;
+    padding: 1px;
+    height: 18px;
+}
+
+.box-content {
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+    background: 0 0;
+    overflow: auto;
+    zoom: 1;
+}
+
+.box-content h2 {
+    border-bottom: 2px solid #699ED2;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box-main label {
+    line-height: 1.2em;
+    width: 100%;
+}
+
+.box-main label input[type="file"] {
+    border: 1px solid #c0c0c0;
+    font-size: 1em;
+    width: 98%;
+    padding: 4px;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+}
+
+.input_data input.error,
+.input_data select.error,
+.input_data textarea.error {
+    background-color: bisque !important;
+}
+
+label.error {
+    display: none !important;
+}
+
+.textred {
+    color: Red;
+}
+
+.slider.slider-horizontal {
+    width: 99% !important;
+}
+
+#ImageResizeImg {
+    display: inherit;
+}
+
+#ImageResizeGrid {
+    padding-top: 5px;
+    overflow-y: visible;
+    height: 380px;
+}
+
+.slider-handle {
+    background: url("../img/ui-bg_glass.png") 50% 50% repeat-x #e6e6e6!important;
+    border-radius: 10%!important;
+}

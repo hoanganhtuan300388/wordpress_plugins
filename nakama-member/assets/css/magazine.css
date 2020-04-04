@@ -1,0 +1,9 @@
+.top-edit{
+    background: url('../img/member/edit/hlbg5.gif') no-repeat left center;
+    padding: 10px 0px 4px 70px;
+}
+@media (max-width: 320px) {
+	.base_button {
+		margin-bottom: 5px;
+	}
+}

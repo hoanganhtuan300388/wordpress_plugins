@@ -1,0 +1,412 @@
+table.nakama-setting input,textarea {
+  width: 50%;
+}
+table.nakama-setting span.exam_label {
+  display: block;
+  margin-top: 2px;
+  word-break: break-all;
+}
+@media screen and (max-width: 782px){
+  table.nakama-setting textarea {
+    width: 100%;
+  }
+  .col-2-dual {
+    margin-top: 0px !important;
+  }
+}
+.container{
+    width: 100%;
+    max-width: 1075px;
+    margin-top: 10px;
+}
+.col-5-dual{
+  width: 100%!important;
+  max-width: 290px!important;
+}
+.col-5-dual h4{
+  padding: 5px 0;
+  text-align: center;
+  background: #23282d;
+  margin: 0;
+  color: #fff;
+}
+.col-5-dual select option{
+  padding: 6px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.col-5-dual select option:nth-child(2n){
+  background: #eee;
+}
+.col-5-dual select option:last-child{
+  border-bottom: none;
+}
+.col-2-dual{
+  width: 100%;
+  max-width: 100px;
+}
+.col-2-dual ul{
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+.col-2-dual ul li{
+  display: block;
+  text-align: center;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.setting_view_list .btn-default {
+  background: #0085ba;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 3px 12px;
+  font-size: 13px;
+}
+.setting_view_list .btn-default:disabled {
+  background: #677175;
+  cursor: auto;
+}
+.setting_view_list .setting_title {
+  background: #4184c7;
+  color: #fff;
+  padding: 2px 10px !important;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.setting_view_list .per_page {
+  margin-bottom: 20px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.setting-table-param{
+  border-collapse: collapse;
+  width: 1100px;
+  background: #fff;
+}
+.setting-table-param.research_posttype{
+  width: 100%;
+}
+.setting-table-param td{
+  border: 1px solid #a0a5aa;
+  padding: 5px 7px;
+  vertical-align: middle;
+}
+.setting-table-param td input[type="text"]{
+  width: 100%;
+}
+.setting-table-param tr td:first-child{
+  width: 180px;
+}
+.list-embed li{
+  display: inline-block;
+}
+.list-embed li:first-child
+{
+  width: 70%;
+}
+.list-embed li button{
+  background: #0085ba;
+  color: #fff;
+  border: 1px solid #0085ba;
+  padding: 4px 10px;
+}
+td.select_range {
+  display: none;
+}
+/* admin */
+.wp-list-table-common .col-1{
+  width: 5%;
+}
+.wp-list-table-research .col-1{
+  width: 2%!important;
+}
+.wp-list-table-common .col-2{
+  width: 47%;
+}
+.wp-list-table-common td a{
+  font-weight: 600;
+}
+.wp-list-table-common tr.last{
+  background-color: #f9f9f9;
+}
+.wp-list-table-common tr .list-embed{
+  padding: 0;
+  margin: 0;
+}
+.wp-list-table-common tr .list-embed li{
+  vertical-align: top;
+}
+.wp-list-table-common tr .list-embed input[type="text"]{
+  padding: 5px 15px;
+  margin: 0;
+  width: 100%;
+}
+.wp-list-table-common tr .list-embed li button{
+  padding: 4px 10px;
+}
+.wp-table-setting{
+  width: 100%;
+}
+.wp-table-setting .first-th{
+  width: 5%;
+}
+.wp-table-setting .last-th{
+  width: 95%;
+}
+
+/* page setting */
+.page_setup_table {
+  width: 600px;
+}
+.line {
+  height: 1px;
+  background-color: #cccccc;
+}
+.research-wrap-setting{
+  margin: 10px 0;
+}
+.setting_btn {
+  text-decoration: none;
+  background: #0073aa;
+  color: #ffffff;
+  padding: 5px 25px;
+  margin-right: 10px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+}
+a.setting_btn:hover,
+a.setting_btn:focus,
+a.setting_btn:visited{
+  color: #ffffff;
+}
+ul.list_btn_setting li {
+  margin: 20px 0;
+}
+
+.list_img_view li{
+  display: inline-block;
+  padding-right: 115px;
+}
+.list-button-display{
+  overflow: hidden;
+}
+.list-button-display li{
+  float: left;
+}
+.list-button-display li p{
+  margin: 0;
+  padding: 0;
+}
+.list-button-display li input[type="reset"],
+.list-button-display li input[type="reset"]:hover,
+.list-button-display li input[type="reset"]:active,
+.list-button-display li input[type="reset"]:focus{
+  background: #0085ba;
+  border-color: #0073aa #006799 #006799;
+  -webkit-box-shadow: 0 1px 0 #006799;
+  box-shadow: 0 1px 0 #006799;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+  margin-left: 10px;
+  padding: 0 10px 1px;
+}
+.setting-display-table .first-tr{
+  background: #4184c7;
+  color: #fff;
+}
+.setting-display-table .first-tr .first{
+  width: 10%;
+  text-align: center;
+}
+.setting-display-table tr td:first-child{
+  text-align: center;
+}
+.setting-display-table tr select{
+  width: 100%;
+}
+
+/* add setting*/
+
+.type_post{
+  border-radius: 5px;
+  display: block;
+  margin: 10px 0;
+  min-width: 300px;
+  width: 100%;
+  border: 1px solid #ccc;
+  color: #333;
+  outline: 0;
+  height: auto !important;
+  padding: 9px 2px !important;
+  margin-bottom: 15px;
+}
+.panel_event *{
+  box-sizing: border-box;
+}
+.panel_event .col-md-8{
+  width: 66.66667%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.panel_event .col-md-12{
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.panel_event .col-md-4{
+  width: 33.33333%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.panel_event{
+  margin: 0 -15px;
+}
+.panel_research{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+#content_option > div > ul{
+  border-bottom: 1px solid #aaa;
+  padding: 9px 15px 0 10px;
+  margin: 0;
+  background: #e9e9e9;
+  color: #333333;
+  font-weight: bold;
+}
+#content_option > div >ul > li{
+  display: inline-block;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #aaa;
+  padding: 0;
+  margin: 0 4px -1px;
+  background-color: #e4e4e4;
+}
+#content_option > div >ul > li.ui-tabs-active{
+  display: inline-block;
+  border-top: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+}
+#content_option > div >ul > li span {
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #333;
+  text-decoration: none;
+}
+#content_option > div >ul > li.ui-tabs-active span {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+#content_option > div >ul > li span:hover{
+  cursor: pointer;
+}
+.content_view{
+  border: 1px solid #aaa;
+  border-top: none;
+  padding: 15px;
+}
+.content_view table{
+  width: 100%;
+}
+#result #html, #shortcode #html {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: #fff;
+  border: 0;
+  background: #214153;
+}
+.txt_short_code{
+  background: transparent !important;
+  border: transparent !important;
+  box-shadow: none !important;
+  width: 100%;
+}
+.txt_short_code:focus{
+  outline: auto;
+}
+.upload-btn-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  background: #e4e4e4;
+  padding: 7px;
+}
+.format-table .form-table{
+  border-collapse: collapse;
+  width: 700px;
+  background: #fff;
+}
+.format-table .form-table td, .format-table .form-table th {
+    border: 1px solid #a0a5aa;
+    padding: 5px 7px;
+    vertical-align: middle;
+}
+.shortcode-input {
+  background-color: transparent !important;
+  border: transparent;
+  width: 100%;
+}
+
+table td.title_table{
+  background: #4184c7;
+  color: #fff;
+  text-align: center;
+}
+.wrap.cpt-research {
+    margin: 10px 0px 0 2px;
+}
+.cpt-research #shortcode #html, .cpt-research .type_post{
+  width: 25%;
+}
+@media (max-width: 768px){
+  .cpt-research #shortcode #html, .cpt-research .type_post {
+    width: 100%;
+  }
+}
+.setting_view_list.setting_params_call_api {
+    margin: 30px 0;
+}
+.setting_params_call_api table.setting-table-param input, .setting_params_call_api table.setting-table-param textarea {
+    width: 100%;
+}
+.post-type-discussion_setting #message a, .post-type-discussion_setting #edit-slug-box,
+.post-type-discussion_setting .row-actions > .view, .post-type-discussion_setting .row-actions > span.inline{
+  display: none;
+}
+.setting-table-param.w-100 {
+  width: 100%;
+}
+#table_setting_display {
+  width: auto!important;
+}
+.list_research.type_research label {
+  margin-right: 20px;
+}

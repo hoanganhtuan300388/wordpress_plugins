@@ -1,0 +1,634 @@
+/*******************************************************************************
+  サービス情報設定スタイルシート
+
+  【システム名】なかま
+  【ファイル名】service.css(/css)
+  【  機能名  】サービス情報設定画面用CSS
+  【   概要   】
+  【  作成日  】2011-04-04
+  【  作成者  】endo
+
+*******************************************************************************/
+
+/* 進捗表示領域 */
+.progress_t {
+    width:720px;
+    border:0px;
+    text-align:center;
+
+}
+
+.progress_i {
+    position:absolute;
+    left:0px;
+    width:125px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    font-size:12px;
+}
+
+/* 画面ヘッダ */
+.header {
+    width:100%;
+    height:24px;
+    border : 0px;
+    font-size:12pt;
+    font-weight:normal;
+//  background-color: #2B8040;
+    background-color: #8A8A8A;
+    color:white;
+//  vertical-align: middle;
+    text-align:left;
+}
+
+/* テーブルベース */
+.table_b {
+    width:720px;
+    border: 1px solid;
+    border-color: #d1d1d1;
+    font-size:12pt;
+    font-weight:normal;
+    vertical-align: middle;
+    border-collapse:collapse;
+}
+
+/* テーブルヘッダ */
+.table_h {
+    width:100%;
+    height:30px;
+    font-size:12pt;
+    font-weight:bold;
+    background-color: #B4B4B4;
+    color:white;
+    vertical-align: middle;
+    text-align:left;
+}
+
+/* テーブル項目 */
+.table_i {
+    width:20%;
+    height:28px;
+    border: 1px solid #a9a9a9;
+    font-size:11pt;
+    font-weight:normal;
+    background-color: #dcdcdc;
+    color:black;
+    vertical-align: middle;
+    text-align:center;
+}
+
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↓*/
+/* 項目ヘッダ */
+.table_i_noline {
+    width:20%;
+    height:28px;
+    border: 1px dashed;
+    font-size:11pt;
+    font-weight:normal;
+    background-color: #fbfbfb;
+    color:black;
+    vertical-align: middle;
+    text-align:center;
+}
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↑*/
+
+/* テーブルデータ */
+.table_d {
+    width:80%;
+    height:28px;
+    border: 1px solid #a9a9a9;
+    font-size:11pt;
+    font-weight:normal;
+    background-color: #f5f5f5;
+    vertical-align: middle;
+    text-align:left;
+}
+
+/* ボタン用テーブル */
+.table_btn {
+    width:720px;
+    border: 0px solid;
+    align: right;
+    vertical-align: middle;
+    border-collapse:collapse;
+}
+
+/* 入力フィールド */
+.input_text {
+    width:570px;
+}
+
+/* 入力フィールド(textarea) */
+.input_textarea {
+    width:570px;
+}
+
+/* 入力フィールド(任意項目タイトル */
+.input_text_title {
+    width:120px;
+}
+
+/* プレビュータイトル用テーブル */
+.pre_table_t {
+    width:100%;
+    height:30px;
+    font-size:14pt;
+    font-weight:bold;
+    color:white;
+    border: 0px;
+    text-align: left;
+    vertical-align: middle;
+    background-color:#868EA4;
+}
+
+/* プレビュー用フォント（太字）*/
+.pre_font_b {
+    text-align: left;
+    font-size:11pt;
+    font-weight:bold;
+}
+
+/* プレビュー用フォント（ノーマル）*/
+.pre_font_n {
+    text-align: left;
+    font-size:11pt;
+    font-weight:normal;
+}
+
+/* プレビュー項目用テーブル */
+.pre_table_b {
+    width:95%;
+    /*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↓*/
+    /*  border: 1px solid #d1d1d1;*/
+    border: 0px;
+    /*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↑*/
+    font-size:12pt;
+    font-weight:normal;
+    vertical-align: middle;
+    border-collapse:collapse;
+}
+
+/* プレビュー項目 */
+.pre_table_i {
+    width:20%;
+    border: 1px solid #d1d1d1;
+    font-size:11pt;
+    font-weight:bold;
+    color:#404040;
+    background-color: #FFF2F2;
+    vertical-align: middle;
+    text-align:center;
+    padding:5px 12px;
+}
+
+/* プレビューデータ */
+.pre_table_d {
+    width:80%;
+    border: 1px solid #d1d1d1;
+    font-size:11pt;
+    font-weight:normal;
+    color:#000000;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    text-align:left;
+    padding:5px 12px;
+}
+
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↓*/
+/* プレビュー項目ヘッダ */
+.pre_table_i_noline {
+    width:12%;
+    border: 0px;
+    font-size:11pt;
+    font-weight:normal;
+    color:#404040;
+    background-color: #ffffff;
+    vertical-align: top;
+    text-align:right;
+    padding:6px 2px 4px 0px;
+    white-space: nowrap;
+}
+
+/* プレビューデータ */
+.pre_table_d_noline {
+    width:80%;
+    border: 0px solid #d1d1d1;
+    font-size:11pt;
+    font-weight:normal;
+    color:#000000;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    text-align:left;
+    padding:5px 12px;
+}
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↑*/
+
+/* 公開用タイトル用テーブル */
+.opn_table_t {
+    width:100%;
+    height:30px;
+    font-size:14pt;
+    font-weight:bold;
+    color:white;
+    border: 0px;
+    text-align: left;
+    vertical-align: middle;
+    background-color:#868EA4;
+}
+
+/* 公開用フォント（太字）*/
+.opn_font_b {
+    text-align: left;
+    font-size:12pt;
+    font-weight:bold;
+}
+
+/* 公開用フォント（ノーマル）*/
+.opn_font_n {
+    text-align: left;
+    font-size:11pt;
+    font-weight:normal;
+}
+
+/* 公開項目用テーブル */
+.opn_table_b {
+    width:95%;
+    /*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↓*/
+    /*  border: 1px solid #d1d1d1;*/
+    border: 0px;
+    /*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↑*/
+    font-size:12pt;
+    font-weight:normal;
+    vertical-align: middle;
+    border-collapse:collapse;
+}
+
+/* 公開項目 */
+.opn_table_i {
+    width:150px;
+    border: 1px solid #d1d1d1;
+    font-size:11pt;
+    font-weight:bold;
+    color:#404040;
+    background-color: #FFF2F2;
+    vertical-align: middle;
+    text-align:center;
+    padding:5px 12px;
+}
+
+/* 公開データ */
+.opn_table_d {
+    width:80%;
+    border: 1px solid #d1d1d1;
+    font-size:11pt;
+    font-weight:normal;
+    color:#000000;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    text-align:left;
+    padding:5px 12px;
+}
+
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↓*/
+/* 公開項目ヘッダ */
+.opn_table_i_noline {
+    width:12%;
+    border: 0px;
+    font-size:11pt;
+    font-weight:normal;
+    color:#404040;
+    background-color: #ffffff;
+    vertical-align: top;
+    text-align:right;
+    padding:6px 2px 4px 0px;
+}
+
+/* 公開データ */
+.opn_table_d_noline {
+    width:80%;
+    border: 0px;
+    font-size:11pt;
+    font-weight:normal;
+    color:#000000;
+    background-color: #FFFFFF;
+    vertical-align: middle;
+    text-align:left;
+    padding:5px 12px;
+}
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↑*/
+
+/* ボタン */
+.btnClass {
+    width:100px;
+    height:30px;
+}
+
+/* 必須入力 */
+.requires {
+    color:red;
+    font-size:10pt;
+    font-weight:normal;
+}
+
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↓*/
+/* 非表示 */
+.nodisp {
+    color:blue;
+    font-size:10pt;
+    font-weight:normal;
+}
+/*#### 2015-05-18 [会員公開情報支援サービス対応] 入力フォームの改修 By Matsumoto↑*/
+
+h2.serviceTitle {
+    font-size:14pt;
+    color:#fdfdfd;
+    background-color:#8a96b7;
+    height:28px;
+    margin:10px 0px 0px 0px;
+    padding:7px 0px 0px 5px;
+}
+h3.yearTitle {
+    font-size:12px;
+    font-weight:bold;
+    color:#000000;
+    background:url(../img/shinsei_icon.gif) no-repeat 10px 0px;
+    text-align:left;
+    padding:0px 0px 0px 22px;
+    margin:0px;
+}
+.seminarList{
+    width:100%;
+    text-align:left;
+    font-size:9pt;
+    padding:0px 0px 10px 0px;
+    margin:8px 0px;
+}
+.seminarList h3.yearTitle{
+    margin:0px 0px 8px 0px;
+}
+.seminarList table{
+    border-top:1px solid #d1d1d1;
+    border-left:1px solid #d1d1d1;
+    font-size: unset;
+    margin-bottom: 15px;
+}
+.seminarList table td{
+    border-bottom:1px solid #d1d1d1;
+    border-right:1px solid #d1d1d1;
+}
+.seminarList table td.dayTitle{
+    background-color:#d1d1d1;
+    border-right:1px solid #ffffff;
+    text-align:center;
+    padding:5px 12px;
+}
+.seminarList table td.nameTitle{
+    background-color:#d1d1d1;
+    text-align:center;
+    padding:5px;
+}
+.seminarList table td.dayList{
+    text-align:left;
+    padding:5px 12px;
+    font-weight:bold;
+    color:#444444;
+}
+.seminarList table td.seminarNameList{
+    padding:5px 10px;
+    text-align:left;
+    line-height:140%;
+}
+
+/*#### 2015-06-02 [会員公開情報支援サービス対応] テキスト編集機能の追加 By Matsumoto↓*/
+.inputField{
+    background-color:#ffffff;
+}
+/*#### 2015-06-02 [会員公開情報支援サービス対応] テキスト編集機能の追加 By Matsumoto↑*/
+
+.seminarList table td.category1 {
+    background-color:#c6e2ff;
+    border-left:3px solid #4496d3;
+    /*border-right:1px solid #ffffff;*/
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+}
+.seminarList table td.category2 {
+    background-color:#ffc6ff;
+    border-left:3px solid #ea618e;
+    /*border-right:1px solid #ffffff;*/
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+}
+.seminarList table td.category3 {
+    background-color:#ffffc1;
+    border-left:3px solid #ffd700;
+    /*border-right:1px solid #ffffff;*/
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+}
+.seminarList table td.category4 {
+    background-color:#dbffb7;
+    border-left:3px solid #a7d28d;
+    /*border-right:1px solid #ffffff;*/
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+}
+
+/*#### 2017-04-27 [北沢法人会] スマホ対応 By Murakami↓*/
+.seminarList div.category1 {
+    background-color:#c6e2ff;
+    border-left:3px solid #4496d3;
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+    /*font-size:12pt;*/
+}
+.seminarList div.category2 {
+    background-color:#ffc6ff;
+    border-left:3px solid #ea618e;
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+    /*font-size:12pt;*/
+}
+.seminarList div.category3 {
+    background-color:#ffffc1;
+    border-left:3px solid #ffd700;
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+    /*font-size:12pt;*/
+}
+.seminarList div.category4 {
+    background-color:#dbffb7;
+    border-left:3px solid #a7d28d;
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+    /*font-size:12pt;*/
+}
+
+.seminarList div.flexbox {
+    padding-left:8px;
+}
+.seminarList div.flex-tbl{
+    border: solid 0.5px #d3d3d3;
+    margin-left: 0;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.seminarList div.tblSeminarList {
+    display: block;
+}
+.flexSeminarList {
+    display: none;
+}
+/*@media only screen and (max-width: 980px) {*/
+    .flex_seminar {
+
+        padding-top:24px;
+        display:inline-block;
+        font-size:2.0em;
+    }
+    .flex_seminar a{
+        font-size:1.2em;
+    }
+
+    .flex_seminar_td{
+        padding-right:32px;
+    }
+    .flex_seminar_btn {
+        font-size:30px;
+    }
+
+    .tblSeminarList {
+        display: none;
+    }
+    .flexSeminarList {
+        display: block;
+        width : 100% ;
+        margin: auto;
+    }
+
+    .opn_table_t td{
+        font-size:2.0em;
+    }
+    .opn_font_b {
+        font-size:2.0em;
+    }
+    .opn_font_n td{
+        font-size:2.0em;
+    }
+/*}*/
+
+.seminarList div.categorydata {
+    padding:8px 4px;
+    text-align:left;
+    vertical-align:top;
+    /*font-size:12pt;*/
+}
+/*#### 2017-04-28 [北沢法人会] スマホ対応 By Murakami↑*/
+
+.seminarList table td.category5 {
+    background-color:#ffd6ad;
+    border-left:3px solid #ff8c00;
+    /*border-right:1px solid #ffffff;*/
+    text-align:center;
+    padding:5px 12px;
+    color:#888888;
+    font-weight:bold;
+}
+.seminarList table td.categorydata {
+    padding:10px 5px;
+    text-align:left;
+    vertical-align:top;
+    /*border:1px solid #d3d3d3;*/
+}
+
+/*#### 2017-04-28 [北沢法人会] スマホ対応 By Murakami↓*/
+/*@media only screen and (max-width:980px){*/
+    .page_setup_width{
+        width:100% !important;
+    }
+    .opn_table_b tr{
+        /*display: block;*/
+        margin-bottom: 1.5em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .opn_table_i_noline{
+        padding: 4px;
+        display: block;
+        background: #e6e6e6;
+        border: none;
+        list-style:none;
+        font-size:2.0em;
+        text-align:left;
+        float: left;
+        width:100%;
+    }
+
+    .opn_table_d{
+        padding: 8px;
+        display: block;
+        border: none;
+        list-style:none;
+        font-size:1.6em;
+        /*font-weight: bold;*/
+        float: left;
+        width:100%;
+    }
+
+    .flex_back2{
+        font-size:2.0em;
+        margin-top:-4px !important;
+    }
+    .dateinput .opn_table_d{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .dateinput .opn_table_b tr{
+        flex-wrap: nowrap;
+    }
+/*}*/
+
+/*#### 2017-04-28 [北沢法人会] スマホ対応 By Murakami↑*/
+
+A.servicelink:link {
+    color             : #666666;
+    text-decoration   : none;
+    text-align        : left;
+}
+A.servicelink:visited {
+    color             : #666666;
+    text-decoration   : none
+}
+A.servicelink:hover {
+    color             : #007bbb;
+    text-decoration   : underline
+}
+A.servicelink:hover {
+    color             : #007bbb;
+    text-decoration   : underline
+}
+p.resizeimage {
+    width: 100%;
+}
+.empty-item{
+    display: none;
+}

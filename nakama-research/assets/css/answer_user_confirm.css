@@ -1,0 +1,20 @@
+.RegValue {
+  font-size: 10pt;
+  background-color: #dcdcdc;
+  text-align: left;
+}
+
+.button1 {
+  width: 100px;
+}
+
+TABLE {
+  font-size: 10pt;
+}
+table.page_first{
+	width: 100%;
+}
+table.page_setup_width{
+	max-width: 700px;
+	width: 100%;
+}

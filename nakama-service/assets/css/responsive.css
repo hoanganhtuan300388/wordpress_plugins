@@ -1,0 +1,198 @@
+@media (min-width: 1140px){
+  body {
+    margin: 0;
+  }
+}
+@media (min-width: 992px){
+	.page-header_pageTitle, h1.page-header_pageTitle:first-child {
+    margin: 30px 0 25px;
+		font-size: 32px;
+		line-height: 1.1;
+		font-family: inherit;
+		font-weight: 500;
+		background-color: #337ab7;
+    color: #fff;
+	}
+}
+@media (max-width: 992px){
+	.page-header_pageTitle, h1.page-header_pageTitle:first-child {
+    margin: 15px 0 10px;
+    font-size: 22px;
+    line-height: 1.1;
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width:768px){
+  .ListCategory {
+    width: 100%;
+    display: block;
+  }
+  .center-logo {
+    text-align: center;
+  }
+  .btn_close{
+    float: right;
+    margin-bottom: 10px;
+  }
+  .top-close span {
+    float: left;
+    margin-right: 0px;
+  }
+  /* comment page*/
+  .comment_page .InputTable td{
+    width: 100%;
+    display: block;
+  }
+  .comment_page .cp_iptxt2 input[type='text']{
+    width: 100%!important;
+  }
+  /* end comment page*/
+
+  /* issue add edit*/
+  .issue_add_edit_page .InputTable td{
+    width: 100%;
+    display: block;
+  }
+  .issue_add_edit_page .cp_iptxt2 input[type='text']{
+    width: 100%!important;
+  }
+  .issue_add_edit_page .groupRadio {
+    display: block;
+    margin-right: 60px;
+  }
+  /* end issue add edit*/
+  /* issue list */
+  .issue_list td.title_issue{
+    width: 300px;
+    white-space: normal;
+  }
+  .issue_list .groupSearch td {
+    width: 100%;
+    display: block;
+  }
+  .issue_list .groupSearch span.groupOption {
+    width: 100%;
+    display: block;
+  }
+  .issue_list.list_category .groupSearch span.groupOption {
+    width: unset;
+    display: inline-block;
+  }
+  .float_left {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .float_right {
+    float: left;
+    display: block;
+  }
+  td img.category_detail_img{
+    max-width: 150px;
+  }
+  ul.pagination li span {
+    display: none;
+  }
+  ul.pagination li .none-view {
+    display: block;
+  }
+  ul.pagination li img {
+    width: 9px;
+    height: 11px;
+    position: relative;
+    top: 1px;
+  }
+}
+  /* end issue list */
+@media (max-width: 425px){
+  .issue_list.list_category .groupSearch span.groupOption {
+    margin-top: 8px;
+  }
+  td img.category_detail_img{
+    max-width: 100px;
+  }
+}
+@media only screen and (max-width:425px){
+  /* comment page*/
+  .comment_page .btn_close{
+    display: block;
+  }
+  td img.category_detail_img{
+    max-width: 80px;
+  }
+  /* end comment page*/
+  /* issue add edit*/
+  .issue_add_edit_page .groupBtn td {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .issue_add_edit_page .base_button_m {
+    width: 100%;
+    margin-right: 0;
+  }
+  .issue_add_edit_page .btn_close{
+    display: block;
+  }
+  /* end issue add edit*/
+
+  /*issue detail */
+  .issue_detail_page .btn_close{
+    display: block;
+  }
+  /* end issue detail */
+
+  /* issue list */
+  .issue_list td.title_issue{
+    width: 183px;
+    white-space: normal;
+  }
+  .issue_list .btn_close{
+    display: block;
+  }
+  .issue_list .base_button_s {
+    width: 60px;
+  }
+  /* end issue list */
+}
+@media only screen and (max-width:425px){
+  .comment_page .ThreadTable .ThreadInfo span {
+    display: block;
+    width: 100%;
+  }
+  .issue_detail_page .ThreadTable td.ThreadHeader td {
+    width: 100%;
+    display: block;
+  }
+  .issue_detail_page td.controllBtn{
+    text-align: right;
+  }
+  .issue_detail_page .ThreadInfo span{
+    display: block;
+  }
+
+  .issue_detail_page .ResTable td.ThreadHeader td {
+    width: 100%;
+    display: block;
+  }
+  td.CommentValue:first-child {
+    width: 50%;
+  }
+  td.CommentValue:first-child a{
+    word-break: break-word;
+  }
+}
+@media only screen and (max-width: 320px){
+  .issue_list .groupSearch span.groupOption {
+    display: unset;
+  }
+}
+@media only screen and (min-width:768px){
+  /* issue list */
+  .issue_list td.title_issue{
+    width: 400px;
+    white-space: normal;
+  }
+  /* end issue list */
+}

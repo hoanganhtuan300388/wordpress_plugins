@@ -1,0 +1,27 @@
+@media print {
+	.PrintDispNone{
+		display:none;
+	}
+}
+
+.page_setup_table {
+	width: 600px;
+}
+.page_setup_width {
+	width: 600px;
+}
+table.style_none {
+	background-color: transparent;
+	color: #000000;
+	border: 0px;
+}
+table.style_none tr {
+	background-color: transparent;
+	color: #000000;
+	border: 0px;
+}
+table.style_none td {
+	background-color: transparent;
+	color: #000000;
+	border: 0px;
+}

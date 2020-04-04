@@ -1,0 +1,9 @@
+table.detail_table{
+	width: 100%;
+}
+table.detail_table td.first{
+	width: 150px;
+}
+table.detail_table td{
+	padding: 5px;
+}

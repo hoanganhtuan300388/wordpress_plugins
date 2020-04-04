@@ -1,0 +1,1832 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+	background-color: #fff;
+	color: #333;
+	font-size: 14px;
+}
+
+td {
+	color: #333;
+}
+
+form {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+textarea{
+	resize: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+input, textarea{
+	box-sizing: border-box;
+}
+.comp_line {
+	height: 1px;
+	background-color: #6EB6D2;
+}
+
+.bodyUser {
+	line-height: 130%;
+}
+
+.bodyColorTable {
+	background-color: lightblue;
+}
+
+.bodynormal {
+	font-size: 95%;
+	line-height: 130%;
+}
+
+
+/* フォントサイズ */
+
+.font5px {
+	font-size: 5px
+}
+
+.font10px {
+	font-size: 10px
+}
+
+.font150 {
+	font-size: 150%;
+}
+
+.font120 {
+	font-size: 120%
+}
+
+/* 世代交代
+/* ヘッター 画面メニュー部出力 */
+
+.menu_title {
+	font-size: 18pt;
+	color: #FF9900;
+	background-color: #fff;
+	font-weight: normal;
+}
+
+
+/* 別ウィンドウヘッダー部 */
+
+.title {
+	background-color: #3366CC;
+	color: #fff;
+}
+
+.title2 {
+	background-color: #EFEFEF;
+	color: #3366CC;
+}
+
+
+/* 項目タイトル */
+
+.item_title {
+	/*font-size         : 10pt;*/
+	font-weight: bold;
+	background-color: #CCFF99;
+	padding: 10px;
+	border-right: 1px solid #45C91B;
+}
+
+
+/* 項目タイトル */
+
+.item_title2 {
+	/*font-size         : 10pt;*/
+	font-weight: bold;
+	background-color: #FFCC66;
+	padding: 10px;
+	border: 1px solid #A9A9A9;
+	border-collapse: collapse;
+}
+
+
+/* その他 */
+
+.DispTitle {
+	/*font-size: 12pt;*/
+	color: #000;
+	font-weight: bold
+}
+
+
+/* フィールド部出力 */
+
+.field_list {
+	/*font-size         : 80%;*/
+	background-color: lightblue;
+	font-weight: normal;
+}
+
+
+/* 管理画面ヘッダー部出力 */
+
+.kanri_header {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+/* 管理画面フッター部出力 */
+
+.kanri_footer {
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+
+/* ヘッター 画面メニュー部出力 */
+
+.menu_title {
+	font-size: 18pt;
+	color: #FF9900;
+	background-color: #fff;
+	font-weight: normal;
+}
+
+.title {
+	font-size: 14pt;
+	color: #45C91B;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+.menu_item {
+	font-size: 80%;
+	color: #fff;
+	background-color: #336699;
+	font-weight: normal
+}
+
+.menu_noitem {
+	font-size: 80%;
+	color: #336699;
+	background-color: #336699;
+	font-weight: normal
+}
+
+.header {
+	font-size: 120%;
+	background-color: #FF3300;
+	color: #fff;
+	padding: 2 10 2 2;
+	font-weight: normal
+}
+
+.header_item {
+	font-size: 80%;
+	background-color: #fff;
+	color: #336699;
+	font-weight: normal
+}
+
+.header_line {
+	height: 1px;
+	background-color: #336699
+}
+
+
+/* フッター 画面下部出力 */
+
+.footer {
+	font-size: 80%;
+	font-weight: normal
+}
+
+
+/* 直線出力 */
+
+.mid_line {
+	height: 1px;
+	background-color: lightgrey
+}
+
+
+/* 表示 右詰め*/
+
+.right-justified {
+	text-align: right;
+}
+
+
+/* 表示 左詰め*/
+
+.left-justified {
+	text-align: left;
+}
+
+
+/* 表示 中央揃い*/
+
+.center-justified {
+	text-align: center;
+}
+
+
+/* 表示 通常時 */
+
+.textNormal {
+	font-size: 80%;
+	background-color: #fff;
+	font-weight: normal;
+	padding: 3px;
+	color: #000
+}
+
+/* 表示 エラー時 */
+
+.textAttention {
+	font-size: 80%;
+	background-color: #fff;
+	font-weight: bold;
+	padding: 2px;
+	color: #FF0000
+}
+
+
+/* フォームオブジェクト用 CSS */
+
+
+/* テキスト型 */
+
+.text {
+	font-size: 80%;
+	background-color: #fff;
+	font-weight: normal;
+	color: black
+}
+
+
+/* 数値型 */
+
+.number {
+	text-align: right;
+	background-color: #fff;
+}
+
+
+/* ローマ字型 */
+
+.alphameric {
+	font-size: 80%;
+	text-align: left;
+	background-color: #fff;
+}
+
+
+/* ボタン型 */
+
+.button {
+	font-size: 80%;
+	font-weight: normal;
+	color: #000;
+}
+
+/* ボタン型(マーク更新ボタン) */
+
+.mark_button {
+	font-size: 80%;
+	font-weight: normal;
+	color: red;
+}
+
+.t_button {
+	border-bottom-style: outset;
+	width: 30px;
+	font-size: 15px;
+}
+
+
+/* 半角英数字でも折り返すための対応 */
+
+td {
+	word-break: break-all;
+	margin: 0px;
+}
+
+span {
+	word-break: break-all;
+}
+
+p {
+	word-break: break-all;
+}
+
+a {
+	word-break: break-all;
+}
+
+a:link {
+	color: #333
+}
+
+a:visited {
+	color: #333;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+/* リスト */
+
+.pageList {
+	font-size: 90%
+}
+
+.#fffLink {
+	color: #fff
+}
+.HtmPageTitle {
+	font-size: 100%;
+	font-weight: bold
+}
+
+.HtmMenuName {
+	font-size: 90%;
+	font-weight: bold;
+	color: darkslateblue
+}
+
+.HtmPageList {
+	font-size: 80%
+}
+
+/* サイト情報設定 */
+
+.keyword1 {
+	font-size: medium;
+	color: #fff;
+	background-color: #336699;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.keyword2 {
+	color: #000;
+	background-color: #DBEBFB;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.keyword3 {
+	font-size: x-small;
+	color: #000;
+	background-color: #eee;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.text2 {
+	background-color: #fff;
+	font-weight: normal;
+	color: black
+}
+
+
+/* メンテナンス検索結果用テーブル用  検索結果は二色で表示 sub1,sub2となるように表示する */
+
+.mente_list {
+	font-size: 9pt;
+	color: #fff;
+	background-color: #339933;
+	font-weight: normal
+}
+
+.mente_list1 {
+	font-size: 9pt;
+	color: #000;
+	background-color: #ddd;
+	font-weight: normal
+}
+
+.mente_list2 {
+	font-size: 9pt;
+	color: #000;
+	background-color: #fff;
+	font-weight: normal
+}
+
+
+/* なかま
+/* 登録画面　フィールド */
+
+.RegField {
+	/* background-color: #F5F5F5; */
+	text-align: center;
+	word-break: keep-all;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+}
+
+
+/* 登録画面　フィールド（罫線なし） */
+
+.RegField_noline {
+	background-color: #F5F5F5;
+	text-align: center;
+	word-break: keep-all;
+	border: 0px;
+	padding: 10px;
+}
+
+
+/* 登録画面　グループ */
+
+.RegGroup {
+	background-color: #fff;
+	text-align: left;
+	word-break: keep-all;
+	border: 1px solid #a9a9a9;
+}
+
+
+/* 登録画面　グループ（罫線なし） */
+
+.RegGroup_noline {
+	background-color: #fff;
+	text-align: left;
+	word-break: keep-all;
+	border: 0px;
+}
+
+
+/* 登録画面　項目 */
+
+.RegItem {
+	background-color: #fff;
+	text-align: left;
+	word-break: keep-all;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+}
+
+
+/* 登録画面　項目（罫線なし）  */
+
+.RegItem_noline {
+	background-color: #fff;
+	text-align: left;
+	word-break: keep-all;
+	border: 0px;
+	padding: 10px;
+}
+
+
+/* 登録画面　削除項目 */
+
+.RegItem_del {
+	background-color: #FFCCFF;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+}
+
+
+/* 登録画面　削除項目（罫線なし） */
+
+.RegItem_del_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+}
+
+
+/* 登録画面　変更項目 */
+
+.RegItem_chg {
+	background-color: #CCFFCC;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+}
+
+
+/* 登録画面　変更項目（罫線なし） */
+
+.RegItem_chg_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+}
+
+
+/* 登録画面　追加項目 */
+
+.RegItem_add {
+	background-color: #CCCCFF;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+}
+
+
+/* 登録画面　追加項目（罫線なし） */
+
+.RegItem_add_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+}
+/* 登録画面　値 */
+
+.RegValue {
+	background-color: #fff;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+}
+
+
+/* 登録画面　値（罫線なし） */
+
+.RegValue_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+}
+
+
+/* 登録画面　値 削除 */
+
+.RegValue_del {
+	background-color: #FFCCFF;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+
+/* 登録画面　値 削除（罫線なし） */
+
+.RegValue_del_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+
+/* 登録画面　値 変更 */
+
+.RegValue_chg {
+	background-color: #CCFFCC;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+
+/* 登録画面　値 変更（罫線なし） */
+
+.RegValue_chg_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+
+/* 登録画面　値 追加 */
+
+.RegValue_add {
+	background-color: #CCCCFF;
+	text-align: left;
+	border: 1px solid #a9a9a9;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+
+/* 登録画面　値 追加（罫線なし）  */
+
+.RegValue_add_noline {
+	background-color: #fff;
+	text-align: left;
+	border: 0px;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+
+/* 登録画面　値 */
+
+.RegValueOFF {
+	background-color: gray;
+	text-align: left;
+}
+
+
+/* リストヘッダ*/
+
+.ListCategory {
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	empty-cells: show;
+	width: 100%;
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.ListCategory td {
+	border: 1px solid #fff;
+}
+
+.ListHeader {
+	text-align: left;
+	background-color: #abcdef;
+	color: #000;
+}
+
+
+/* リストヘッダ*/
+
+.ListHeader01 {
+	font-size: 15pt;
+	text-align: left;
+	background-color: #abcdef;
+	color: #000;
+}
+
+
+/* 一覧（カード型）項目名*/
+
+.ListItem01 {
+	font-size: 11pt;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	background-color: #eee;
+	border-bottom: double 1px #808080;
+	height: 30px;
+	min-height: 30px;
+}
+
+
+/* 一覧（カード型）イベント名 */
+
+.ListItem02 {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #000;
+	background-color: #F5F5F5;
+	height: 35px;
+	min-height: 35px;
+}
+
+
+/*  一覧（カード型）データ部*/
+
+.ListItem04 {
+	font-size: 11pt;
+	color: #000;
+	background-color: #fff;
+	border-bottom: double 1px #808080;
+	height: 30px;
+	min-height: 30px;
+}
+
+
+/*  一覧（カード型）画像・ボタン*/
+
+.ListItem03 {
+	color: #000;
+	background-color: #bddfff;
+}
+
+
+/*  一覧（カード型）開催日時*/
+
+.ListItem05 {
+	font-size: 10pt;
+	font-weight: bold;
+	color: #000;
+	background-color: #fff;
+	height: 30px;
+	min-height: 30px;
+}
+
+
+/* リストヘッダ マーケティング*/
+
+.ListHeaderMarketing {
+	font-size: 10pt;
+	text-align: left;
+	background-color: #FFCCCC;
+	color: #000;
+}
+
+
+/* リストヘッダ　会員管理 */
+
+.ListHeaderMemberList {
+	font-size: 10pt;
+	text-align: left;
+	background-color: #abcdef;
+	color: #000;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+
+/* リストヘッダ　会費請求 */
+
+.ListHeaderFeeClaim {
+	background-color: #abcdef;
+	font-size: 10pt;
+	text-align: left;
+	color: #000;
+}
+
+
+/* リストヘッダ　会費入金 */
+
+.ListHeaderFeeReceipt {
+	background-color: #abcdef;
+	font-size: 10pt;
+	text-align: left;
+	color: #000;
+}
+
+
+/* リストヘッダ　役員管理 */
+
+.ListHeaderOfficialList {
+	background-color: #abcdef;
+	font-size: 10pt;
+	text-align: left;
+	color: #000;
+}
+
+
+/* リストヘッダ用のリンク文字 */
+
+.LHLink:visited {
+	color: #000;
+}
+
+.LHLink:link {
+	color: #000;
+	font-size: 100%;
+}
+
+.LHLink:hover {
+	color: blue;
+}
+
+
+/* リスト行１ */
+
+.entry_ListRow1 {
+	font-size: 12pt;
+	color: #000;
+	background-color: #ddd;
+	line-height: 40px;
+}
+
+
+/* リスト行２ */
+
+.entry_ListRow2 {
+	font-size: 12pt;
+	color: #000;
+	background-color: #eee;
+	line-height: 40px;
+}
+
+
+/* リスト行１ */
+
+.ListRow1 {
+	font-size: 10pt;
+	color: #000;
+	background-color: #ddd;
+}
+
+
+/* リスト行２ */
+
+.ListRow2 {
+	font-size: 10pt;
+	color: #000;
+	background-color: #eee;
+}
+
+
+/* リスト行 会員のみイベント*/
+
+.ListRow3 {
+	font-size: 10pt;
+	color: #000;
+	background-color: #CCFF99;
+}
+
+
+/* リスト行 一般参加イベント*/
+
+.ListRow4 {
+	font-size: 10pt;
+	color: #000;
+	background-color: #F5F5DC;
+}
+
+
+/* リスト行１ */
+
+.ListRow01 {
+	font-size: 15pt;
+	color: #000;
+	background-color: #ddd;
+}
+
+
+/* リスト行２ */
+
+.ListRow02 {
+	font-size: 15pt;
+	color: #000;
+	background-color: #eee;
+}
+
+
+/* リスト行 会員のみイベント*/
+
+.ListRow03 {
+	font-size: 15pt;
+	color: #000;
+	background-color: #CCFF99;
+}
+
+
+/* リスト行 一般参加イベント*/
+
+.ListRow04 {
+	font-size: 15pt;
+	color: #000;
+	background-color: #F5F5DC;
+}
+
+.LRLink:link {
+	text-decoration: none;
+}
+
+.LRLink:visited {
+	text-decoration: none;
+}
+
+.LRLink:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+/* リスト欄外 */
+
+.ListOperation {
+	font-size: 10pt;
+}
+
+.Belt {
+	font-size: 12pt;
+	background-color: #4352CA;
+	color: #fff;
+}
+
+
+/* 詳細表示　項目 */
+
+.DetailItem {
+	/*font-size: 10pt;*/
+	background-color: #c0c0c0;
+	text-align: left;
+}
+
+
+/* 詳細表示　削除項目 */
+
+.DetailItem_del {
+	/*font-size: 10pt;*/
+	background-color: #FFCCFF;
+	text-align: left;
+}
+
+
+/* 詳細表示　変更項目 */
+
+.DetailItem_chg {
+	/*font-size: 10pt;*/
+	background-color: #CCFFCC;
+	text-align: left;
+}
+
+
+/* 詳細表示　追加項目 */
+
+.DetailItem_add {
+	/*font-size: 10pt;*/
+	background-color: #CCCCFF;
+	text-align: left;
+}
+
+.ReleaseSetting {
+	/*font-size: 10pt;*/
+	background-color: beige;
+	text-align: left;
+}
+
+
+/* 詳細表示 値 */
+
+.DetailValue {
+	/*font-size: 10pt;*/
+	background-color: #dcdcdc;
+	text-align: left;
+}
+
+hr#Sep {
+	color: #ffc040;
+}
+/* コマンドリンク */
+
+.Position {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+/* トップメニュー */
+
+.TopMenu {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+;
+.TopMenu:link {
+	color: blue;
+}
+
+.TopMenu:visited {
+	color: blue;
+}
+
+
+/* サブメニュー */
+
+.SubMenu {
+	background-color: #4352CA;
+}
+
+
+/* サブメニュー 会員一覧 */
+
+.SubMenuMemberList {
+	background-color: #abcdef;
+}
+
+
+/* サブメニュー 会費請求 */
+
+.SubMenuFeeClaim {
+	background-color: #abcdef;
+}
+
+
+/* サブメニュー 会費入金 */
+
+.SubMenuFeeReceipt {
+	background-color: #abcdef;
+}
+
+
+/* サブメニュー 役員管理 */
+
+.SubMenuOfficialList {
+	background-color: #abcdef;
+}
+
+
+/* サブメニュー メンテナンス */
+
+.SubMenuMainte {
+	background-color: #abcdef;
+}
+
+.SubMenuMemberReg {
+	background-color: #abcdef;
+}
+
+.SubMenuLink:visited {
+	color: #575757;
+	font-size: 95%;
+}
+
+.SubMenuLink:link {
+	color: #575757;
+	font-size: 95%;
+}
+
+.SubMenuLink:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.SubMenuLinkActive:visited {
+	color: blue;
+	font-weight: bold;
+	font-size: 95%;
+}
+
+.SubMenuLinkActive:link {
+	color: blue;
+	font-weight: bold;
+	font-size: 95%;
+}
+
+.SubMenuLinkActive:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.TabActive {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TabInactive {
+	background-color: #dfdfdf;
+	font-size: 10pt;
+	color: #000;
+	text-align: center;
+}
+
+.TabLink:visited {
+	color: #575757;
+}
+
+.TabLink:link {
+	color: #575757;
+}
+
+.TabLink:hover {
+	color: blue;
+	text-decoration: none
+}
+
+.TabLinkActive:visited {
+	color: blue;
+}
+
+.TabLinkActive:link {
+	color: blue;
+}
+
+.TabLinkActive:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.TabMemberList {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TabFeeClaim {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TabFeeReceipt {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TabOfficialList {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TabMemberReg {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TabMainte {
+	background-color: #abcdef;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.CommonMenu {
+	font-size: 10pt;
+}
+
+.CommonMenu:visited {
+	color: blue;
+}
+
+.CommonMenu:link {
+	color: blue;
+}
+
+/*メンテナンス登録部分*/
+
+.RegTitle {
+	background-color: #abcdef;
+	text-align: left;
+}
+
+.RegDetail {
+	background-color: #ddd;
+	text-align: left;
+}
+
+
+/*会費請求　検索エリア*/
+
+.SearchArea {
+	border-color: #339933;
+	background-color: #fff;
+	font-size: 90%;
+}
+
+.RegEnvTitle {
+	background-color: #CACEF9;
+}
+
+.RegEnvDetail {
+	background-color: #DCDBEC;
+}
+
+.MainteListTitle {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+
+/* ソート設定 */
+
+a.link_sort {
+	padding-left: 18px;
+	background: url(../img/btnicon/application_put.png) left no-repeat;
+}
+
+
+/* 表示設定 */
+
+a.link_dispcpnf {
+	padding-left: 18px;
+	background: url(../img/btnicon/application_view_columns.png) left no-repeat;
+}
+
+
+/* 先頭ページ */
+
+span.nolink_startpage {
+	padding-left: 18px;
+	background: url(../img/btnicon/resultset_first.png) left no-repeat;
+	color: #aaa;
+}
+
+
+/* 前ページ */
+
+span.nolink_prevpage {
+	padding-left: 18px;
+	background: url(../img/btnicon/resultset_previous.png) left no-repeat;
+	color: #aaa;
+}
+
+a.link_prevpage {
+	padding-left: 18px;
+	background: url(../img/btnicon/resultset_previous.png) left no-repeat;
+}
+
+
+/* 次ページ */
+
+span.nolink_nextpage {
+	padding-right: 18px;
+	background: url(../img/btnicon/resultset_next.png) right no-repeat;
+	color: #aaa;
+}
+
+a.link_nextpage {
+	padding-right: 18px;
+	background: url(../img/btnicon/resultset_next.png) right no-repeat;
+}
+
+
+/* 最終ページ */
+
+span.nolink_lastpage {
+	padding-right: 18px;
+	background: url(../img/btnicon/resultset_last.png) right no-repeat;
+	color: #aaa;
+}
+
+/* entry */
+
+input[type="text"],
+textarea {
+  background-color: #fff;
+  cursor: auto;
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a9a9a9;
+}
+
+
+.m_connect_end,.input_table_top,.input_table {
+  border: 1px solid #a9a9a9;
+  border-spacing: 0px;
+  empty-cells: show;
+  padding: 10px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.input_table .input_item_Need{
+	color: #FF0000;
+	padding: 5px 7px;
+}
+.input_table .input_value input[type="text"]{
+	width: 60%;
+}
+.input_table_noline {
+  border: 0px solid #fff;
+  border-spacing: 0px;
+  empty-cells: show;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+
+.input_title {
+  font-size: 11pt;
+  color: #4d4d4d;
+  background-color: #F5F5F5;
+  font-weight: bold;
+  padding: 7px;
+  border: 1px solid #A9A9A9;
+}
+
+.input_title2 {
+  font-size: 11pt;
+  color: #4d4d4d;
+  background-color: #DBEBFB;
+  font-weight: bold;
+  padding: 7px;
+  border: 1px solid #A9A9A9;
+}
+
+
+/* 入力項目名 */
+
+.input_item {
+  font-size: 11pt;
+  color: #4d4d4d;
+  background-color: #fff;
+  font-weight: normal;
+  padding: 12px;
+  border: 1px solid #A9A9A9;
+}
+
+
+/* 入力項目名必須 */
+
+.input_item_need {
+  font-size: 11pt;
+  color: #FF0000;
+  background-color: #fff;
+  font-weight: normal;
+  padding: 12px;
+  border: 1px solid #A9A9A9;
+}
+
+
+/* 入力項目値 */
+
+.input_value {
+  font-size: 13px;
+  color: #4d4d4d;
+  background-color: #fff;
+  font-weight: normal;
+  padding: 12px;
+  border: 1px solid #A9A9A9;
+}
+
+
+/* ログイン画面テーブル */
+
+.login_table {
+  border: 1px solid #A9A9A9;
+  border-spacing: 0px;
+  empty-cells: show;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+
+/* ログイン項目タイトル */
+
+.login_header {
+  font-size: 12pt;
+  color: #4d4d4d;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  padding: 10px;
+  border: 0px solid #A9A9A9;
+}
+
+.login_title {
+  font-size: 11pt;
+  color: #4d4d4d;
+  background-color: #F5F5F5;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #A9A9A9;
+}
+
+
+/* ログイン項目タイトル（必須） */
+
+.login_title_Need {
+  font-size: 11pt;
+  color: #FF0000;
+  background-color: #F5F5F5;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #A9A9A9;
+}
+
+
+/* ログイン項目値 */
+
+.login_value {
+  font-size: 11pt;
+  color: #4d4d4d;
+  background-color: #fff;
+  font-weight: normal;
+  padding: 10px;
+  border: 1px solid #A9A9A9;
+}
+
+
+.login_input {
+  font-size: 14pt;
+  padding: 2px;
+  width: 100%;
+}
+
+.login_input2 {
+  font-size: 14pt;
+  padding: 2px;
+  width: 97%;
+}
+
+
+.info_box {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #6699FF;
+  background-color: #fff;
+  border: 2px solid #6699FF;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.page_title {
+  text-align: left;
+  border-bottom: 1px solid #d3d3d3;
+  border-left: 15px solid #d3d3d3;
+  color: #666;
+  font-size: 14pt;
+  padding-top: 7px;
+  padding-right: 0px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+}
+
+
+.page_title2 {
+  text-align: left;
+  background: none repeat scroll 0 0 #F5F5F5;
+  border-left: 10px solid #d3d3d3;
+  color: #666;
+  font-size: 16pt;
+  padding-top: 3px;
+  padding-right: 0px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+}
+
+
+.page_title3 {
+  text-align: left;
+  border-bottom: 2px dotted #d3d3d3;
+  color: #666;
+  font-size: 16pt;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+.base_button {
+  width: 160px;
+  height: 40px;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: auto;
+  border: 1px solid #a9a9a9;
+  margin-bottom: 10px;
+}
+
+.base_button_250 {
+  width: 250px;
+  height: 40px;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: auto;
+  border: 1px solid #a9a9a9;
+}
+
+
+.entry_button {
+  width: 140px;
+  height: 30px;
+  font-size: 11pt;
+  font-weight: normal;
+  color: #444;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  cursor: auto;
+  border: 1px solid #a9a9a9;
+}
+
+
+.info_table {
+  border: 1px solid #FF0000;
+  border-spacing: 0px;
+  empty-cells: show;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+
+.info_red {
+  font-size: 12pt;
+  color: #FF0000;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 12px 12px 12px 12px;
+  border: 1px solid #FF0000;
+}
+
+
+.RegEventItem {
+  font-size: 11pt;
+  background-color: #fff;
+  text-align: left;
+  padding: 5px;
+}
+
+.RegEventValue {
+  font-size: 11pt;
+  background-color: #fff;
+  text-align: left;
+  padding: 5px;
+}
+
+.RegItem_ans {
+  font-size: 11pt;
+  background-color: #fff;
+  text-align: left;
+  word-break: break-all;
+  padding: 5px;
+}
+
+.RegValue_ans {
+  font-size: 11pt;
+  background-color: #fff;
+  text-align: left;
+  word-break: break-all;
+  padding: 5px;
+}
+.RegEventItem2 {
+  font-size: 11pt;
+  background-color: #fff;
+  text-align: left;
+  word-break: keep-all;
+  padding: 5px;
+  border: 1px solid #A9A9A9;
+}
+
+.RegEventValue2 {
+  font-size: 11pt;
+  background-color: #fff;
+  text-align: left;
+  padding: 5px;
+  border: 1px solid #A9A9A9;
+}
+/* end entry.css */
+
+/* common.css */
+.container{
+	/*width: 100%;
+	max-width: 1140px;*/
+	min-width: 0px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.auto-mg{
+	margin: 0 auto;
+}
+.full-w{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+input[type="text"], input[type="mail"]{
+	padding: 7px;
+}
+input[type="button"]:hover {
+	color: #ffffff;
+	background: #5f91de;
+	border: 1px solid #a9a9a9;
+	cursor: pointer;
+}
+.mg-none{
+	margin: 0;
+}
+.ul-button{
+	margin: 15px 0;
+	text-align: center;
+}
+.ul-button li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.note{
+	color: red;
+	margin: 0;
+}
+.ul-common{
+	text-align: center;
+	margin: 20px 0;
+}
+.ul-common li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 10px;
+}
+.full-w-70{
+	width: 70%;
+}
+.text-select{
+	text-align: center;
+}
+/* end common.css*/
+
+
+/* f-menu.css */
+.f_width {
+	width: 900px;
+}
+.f_menu_border {
+	height: 15px;
+	border-color: transparent;
+	border-style: none;
+	border-width: 0px;
+	border-right-width: 0px;
+}
+.f_menu_border td {
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0px;
+}
+.f_menu_border a {
+	border-width: 0px;
+	background-color: transparent;
+}
+/* end f-menu.css*/
+
+/* h-menu.css */
+.h_width {
+	width: 900px;
+}
+.h_menu_border {
+	height: 35px;
+	border-color: transparent;
+	border-style: none;
+	border-width: 0px;
+	border-right-width: 0px;
+}
+
+.h_menu_border td {
+	border-right-color: transparent;
+	border-right-style: none;
+	border-right-width: 0px;
+}
+
+.h_menu_border a {
+	border-width: 0px;
+	background-color: transparent;
+}
+/* end h-menu.css */
+
+.top-header {
+	overflow: hidden;
+}
+.top-close {
+	padding: 5px 0;
+	overflow: hidden;
+}
+.none_event {
+	pointer-events: none;
+}
+.red{
+	color: #FF0000;
+}
+.member-list-group table td {
+	padding: 4px 7px;
+}
+.member-list-group table td:first-child {
+	text-align: center;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+span.user_name_logined {
+	float: right;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+.mt-15{
+	margin-top: 15px;
+}
+
+.RegValue_noline label, .RegValue label{
+    margin-right: 15px;
+}
+
+.RegValue_noline input[type="radio"], .RegValue input[type="radio"] {
+    margin-right: 3px;
+}
+
+.RegValue_noline .form-control, .RegValue .form-control {
+	display: unset;
+	margin-bottom: 0;
+	width: 100%;
+	max-width: 100%;
+}
+.RegValue_noline select.form-control, .RegValue select.form-control{
+	width: auto;
+}
+.RegValue_noline .w-100, .RegValue .w-100, .w_100{
+	width: 100%;
+	max-width: 100%;
+}
+.w_60px{
+	width: 60px !important;
+}
+#table_setting td.RegValue input{
+	width: 65%;
+}
+#table_setting td.RegValue textarea {
+	width: 65%;
+}
+#table_setting td.RegValue select{
+	width: 65%;
+	display: block;
+	margin-bottom: 10px;
+}
+#table_setting td.RegValue input[type="button"], #table_setting td.RegValue input[type="radio"], #table_setting td.RegValue input[type="checkbox"]{
+	width: auto;
+}
+.preLoading {
+    position: fixed;
+    top: 0;
+	left: 0;
+	display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+}
+.img_loading {
+    position: absolute;
+    top: 50%;
+	left: 40%;
+	padding: 10px 60px;
+    background-color: white;
+}
+.preLoading:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+}
+.preLoading.confirm span{
+	bottom: 18px;
+    position: relative;
+}
+select.select_category{
+	margin-bottom: 5px;
+}
+
+#search_area td.no-line {
+	border-bottom: none;
+}
+.main-table-scroll {
+    position: relative;
+    /* overflow: hidden; */
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.main-list #list {
+    width: 100%;
+    margin-bottom: 10px;
+    border: #DCDCDC 1px solid;
+    white-space: nowrap;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+.main-list #list td {
+    padding: 7px;
+    width: 100%;
+}
+.main-list #list td:first-child {
+    width: 30px;
+}
+.content_header_file table {
+	border: none!important;
+}
+.content_header_file table tbody tr td{
+	border: none!important;
+}

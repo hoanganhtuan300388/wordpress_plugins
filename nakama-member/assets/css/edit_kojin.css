@@ -1,0 +1,33 @@
+.ul-common-edit{
+	text-align: left;
+	display: flex;
+}
+.ul-common-edit li{
+	float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+.ul-common-edit li input[type="password"]{
+	margin-right: 10px;
+}
+.ul-common-edit li span{
+	margin-right: 10px;
+}
+.ul-url li{
+	float: left;
+	list-style: none;
+}
+.ul-url li:first-child{
+	width: 60%;
+	margin-right: 10px;
+}
+.btn-edit-kojin{
+	padding: 7px 6px !important;
+}
+.btn_kojin,
+.btn_kojin2,
+.btn_kojin3{
+	height: 30px;
+	width: 180px
+}
+

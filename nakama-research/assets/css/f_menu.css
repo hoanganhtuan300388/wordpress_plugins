@@ -1,0 +1,24 @@
+/*BORDER=START*/
+.f_width {
+  width: 900px;
+}
+
+.f_menu_border {
+  height: 15px;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  border-right-width: 0px;
+}
+
+.f_menu_border td {
+  border-right-color: transparent;
+  border-right-style: none;
+  border-right-width: 0px;
+}
+
+.f_menu_border a {
+  border-width: 0px;
+  background-color: transparent;
+}
+/*BORDER=END*/

@@ -1,0 +1,26 @@
+.login table{
+	width: 100%;
+}
+.login{
+	width: 900px;
+    margin-top: 5px;
+    padding: 12px;
+}
+.asterisk a:link, .asterisk a:visited, .asterisk a:active, .asterisk a:hover {
+  color: #fff;
+}
+.mb20{
+	margin-bottom: 20px;
+}
+input{
+	box-sizing: border-box;
+}
+.errMsg {
+    font-size: 100%;
+    font-weight: normal;
+    color: red;
+}
+.list-button-login input{
+    margin: 0 10px;
+    border-radius: 0;
+}

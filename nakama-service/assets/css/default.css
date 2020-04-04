@@ -1,0 +1,987 @@
+/* レイアウト */
+/* contents */
+#default_contents {
+    float:left;
+    width:100%;
+}
+/* list_area */
+#default_area {
+    float:left;
+    margin-top: 5px;
+    margin-left: 20px;
+    min-height:10px;
+    min-width:98%;
+    max-width:98%;
+    /*  background-color:#d3dbaf;*/ /* debug */
+}
+
+/* フォントサイズ */
+.font5px { font-size:5px }   /* unuse */
+.font10px { font-size:10px }
+.font15px { font-size:15px }
+
+.font150 { font-size:150% }
+.font120 { font-size:120% }  /* un use */
+.font100 { font-size:100% }  /* un use */
+.font95 { font-size:95%  }    /* un use */
+.font90 { font-size:90% }    /* un use */
+.font80 { font-size:80% }    /* un use */
+
+.font150b { font-size:150%; font-weight:bold }
+.font120b { font-size:120%; font-weight:bold }  /* un use */
+.font100b { font-size:100%; font-weight:bold }  /* un use */
+.font95b { font-size:95%; font-weight:bold }    /* un use */
+.font90b { font-size:90%; font-weight:bold }    /* un use */
+.font80b { font-size:80%; font-weight:bold }    /* un use */
+
+/* フォント色 */
+.textred { color:red }
+.textblack { color:#000000 }
+.textwhite { color:#ffffff }
+.textbold { font-weight:bold }
+.textmemberdetail { color:#f5f5f5 }
+
+/* 横幅 */
+.width100 { width: 100% }
+.width90  { width: 90%  }
+.width80  { width: 80%  }
+.width70  { width: 70%  }
+.width60  { width: 60%  }
+.width50  { width: 50%  }
+.width40  { width: 40%  }
+.width30  { width: 30%  }
+.width20  { width: 20%  }
+.width10  { width: 10%  }
+
+/* 非表示 */
+.disp_none  { display: none; }
+/* リンク下線非表示 */
+.underline_none { text-decoration: none; }
+
+/* margin 0 auto（中央寄せ用） */
+.margin0a { margin:0px auto; }
+
+/* テーブルの中央表示 */
+.table_center table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 基本タグ */
+/* リンク */
+a:link     { color:#333333; font-size:11pt;}                           /* unvisited links */
+a:visited  { color:#333333; font-size:11pt; }                          /* visited links   */
+a:hover a.hover { color:#003f8e; font-size:11pt; text-decoration:none }     /* hover links     */
+
+/* [+][-] の展開用 ※未使用予定 */
+.OpenLink:link    { color:chocolate; text-decoration: none; }
+.OpenLink:visited { color:chocolate; text-decoration: none; }
+.OpenLink:hover .OpenLink.hover { color:orangered; text-decoration: underline; }
+.open_frame { border: 2px solid chocolate; }
+
+/* 画面タイトル */
+.form_title{
+    font-size: 14pt;
+    font-weight:bold;
+}
+
+/* フォームオブジェクト用 CSS */
+/* 表示位置 */
+.align-right  { text-align : right;  } /* 右 */
+.align-left   { text-align : left;   } /* 左 */
+.align-center { text-align : center; margin-left: auto; margin-right: auto; } /* 中央 */
+.valign-top    { vertical-align : top;    } /* 上 */
+.valign-middle { vertical-align : middle; } /* 中央 */
+.valign-bottom { vertical-align : bottom; } /* 下 */
+
+/* テキスト型 */
+.text               {
+    font-size         : 11pt;                       /* フォントサイズ */
+    font-weight       : normal;                     /* フォントの太さ */
+    color             : black;                      /* 文字色         */
+    background-color  : white;                      /* 背景色         */
+    ime-mode          : active;                     /* ＩＭＥモード   */
+}
+
+/* 数値型 */
+/*.number             {*/
+/*  font-size         : 11pt;       */                 /* フォントサイズ */
+/*  font-weight       : normal;     */                /* フォントの太さ */
+/*  text-align        : right;      */                /* テキスト位置   */
+/*  ime-mode          : disabled;   */                /* ＩＭＥモード   */
+/*  background-color  : white;      */                /* 背景色         */
+/*}
+
+/* ローマ字型 */
+.alphameric         {
+    font-size         : 11pt;                       /* フォントサイズ */
+    text-align        : left;                       /* テキスト位置   */
+    ime-mode          : disabled;                   /* ＩＭＥモード   */
+    background-color  : white;                      /* 背景色         */
+}
+
+/* ＩＭＥモード */
+.auto     {ime-mode : auto;     }
+.active   {ime-mode : active;   }
+.inactive {ime-mode : inactive; }
+.disable  {ime-mode : disabled; }
+.number   {ime-mode : disabled; text-align: right; }
+
+/*  折り返し */
+wbreak {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/* ナビゲーションバー */
+.naviHeader {
+    height            : 33px;
+    border            : 1px solid #a9a9a9;
+    border-color      : #a9a9a9;
+    background-color  : #f5f5f5;
+    font-size         : 12pt;
+    font-weight       : bold;
+    vertical-align : middle;
+}
+
+/* ボタン */
+.buttons.left {
+    display:block;
+    float:left;
+}
+.buttons.right {
+    display:block;
+    float:right;
+}
+
+.buttons a, .buttons button {
+    display:block;
+    float:right;
+    margin:0 16px 0 0;
+    padding: 0.5em 1.12em;
+    color: white;
+    font-size: 11pt;
+    font-weight:bold;
+    text-decoration: none;
+    vertical-align: middle;
+
+    background-color:#4a6c9b;
+    /*    background-image: url(https://wn.cococica.com/nakama/images/btn/button.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #6fa8de 0%,#376a9d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6fa8de),color-stop(1, #376a9d));
+    background: linear-gradient(#6fa8de, #376a9d);
+    background-image: -o-linear-gradient(top, #6fa8de, #376a9d); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#6fa8de, endcolorstr=#376a9d));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#6fa8de, endcolorstr=#376a9d))";
+
+    border-top:1px solid #aaaaaa;
+    border-left:1px solid #aaaaaa;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+
+    /*    text-shadow: 0 1px 0 rgba(0,0,0,0.4); */
+    /*    -moz-box-shadow: 0 0 .05em rgba(0,0,0,0.4); */
+    /*    -webkit-box-shadow: 0 0 .05em rgba(0,0,0,0.4); */
+}
+.buttons button{
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+.buttons button[type]{
+    padding:3px 15px 4px 5px; /* Firefox */
+    line-height:17px; /* Safari */
+}
+*:first-child+html button[type]{
+    padding:4px 10px 3px 7px; /* IE7 */
+}
+.buttons button img, .buttons a img{
+    margin:0 3px -3px 5px !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+/* STANDARD */
+.buttons a:hover, button.standard:hover {
+    border-top:1px solid #999999;
+    border-left:1px solid #999999;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    color:white;
+
+    background-color:#2b3e5f;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-standard.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #415980 0%,#1d2d47 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #415980),color-stop(1, #1d2d47));
+    background: linear-gradient(#415980, #1d2d47);
+    background-image: -o-linear-gradient(top, #415980, #1d2d47); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#415980, endcolorstr=#1d2d47));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#415980, endcolorstr=#1d2d47))";
+}
+.buttons a.standard:active {
+    border-top:1px solid #69787f;
+    border-left:1px solid #69787f;
+    border-right:1px solid #c2e1ef;
+    border-bottom:1px solid #c2e1ef;
+    color:white;
+
+    background-color:#4a6c9b;
+    /*    background-image:url(./images/btnbase/button.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #6fa8de 0%,#376a9d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6fa8de),color-stop(1, #376a9d));
+    background: linear-gradient(#6fa8de, #376a9d);
+    background-image: -o-linear-gradient(top, #6fa8de, #376a9d); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#6fa8de, endcolorstr=#376a9d));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#6fa8de, endcolorstr=#376a9d))";
+}
+
+/* POSITIVE */
+.buttons a.positive, button.positive {
+    color:#ffffff;
+}
+.buttons a.positive:hover, button.positive:hover{
+    border-top:1px solid #8c995b;
+    border-left:1px solid #8c995b;
+    border-right:1px solid #c6d880;
+    border-bottom:1px solid #c6d880;
+    color:#529214;
+
+    background-color:#d4ffa1;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-positive.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #d4ffa1 0%,#c5fa7f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d4ffa1),color-stop(1, #c5fa7f));
+    background: linear-gradient(#d4ffa1, #c5fa7f);
+    background-image: -o-linear-gradient(top, #d4ffa1, #c5fa7f); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#d4ffa1, endcolorstr=#c5fa7f));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#d4ffa1, endcolorstr=#c5fa7f))";
+}
+.buttons a.positive:active{
+    color:#529214;
+    background-color:#d4ffa1;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-positive.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #d4ffa1 0%,#c5fa7f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d4ffa1),color-stop(1, #c5fa7f));
+    background: linear-gradient(#d4ffa1, #c5fa7f);
+    background-image: -o-linear-gradient(top, #d4ffa1, #c5fa7f); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#d4ffa1, endcolorstr=#c5fa7f));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#d4ffa1, endcolorstr=#c5fa7f))";
+}
+
+/* NEGATIVE */
+.buttons a.negative, button.negative{
+    color:#ffffff;
+}
+.buttons a.negative:hover, button.negative:hover{
+    border-top:1px solid #b28b8c;
+    border-left:1px solid #b28b8c;
+    border-right:1px solid #fbc2c4;
+    border-bottom:1px solid #fbc2c4;
+    color:#d12f19;
+
+    background-color:#f5c2c5;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-negative.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #f7dcde 0%,#f5c2c5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7dcde),color-stop(1, #f5c2c5));
+    background: linear-gradient(#f7dcde, #f5c2c5);
+    background-image: -o-linear-gradient(top, #f7dcde, #f5c2c5); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#f7dcde, endcolorstr=#f5c2c5));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#f7dcde, endcolorstr=#f5c2c5))";
+}
+.buttons a.negative:active{
+    color:#d12f19;
+
+    background-color:#f5c2c5;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-negative.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #f7dcde 0%,#f5c2c5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7dcde),color-stop(1, #f5c2c5));
+    background: linear-gradient(#f7dcde, #f5c2c5);
+    background-image: -o-linear-gradient(top, #f7dcde, #f5c2c5); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#f7dcde, endcolorstr=#f5c2c5));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#f7dcde, endcolorstr=#f5c2c5))";
+}
+
+/* REGULAR */
+.buttons a.regular, button.regular {
+    color:#ffffff;
+}
+.buttons a.regular:hover, button.regular:hover{
+    border-top:1px solid #69787f;
+    border-left:1px solid #69787f;
+    border-right:1px solid #c2e1ef;
+    border-bottom:1px solid #c2e1ef;
+    color:#336699;
+
+    background-color:#90ddfe;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-regular.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #b6e6fa 0%,#90ddfe 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b6e6fa),color-stop(1, #90ddfe));
+    background: linear-gradient(#b6e6fa, #90ddfe);
+    background-image: -o-linear-gradient(top, #b6e6fa, #90ddfe); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#b6e6fa, endcolorstr=#90ddfe));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#b6e6fa, endcolorstr=#90ddfe))";
+}
+.buttons a.regular:active{
+    color:#336699;
+    background-color:#90ddfe;
+    /*    background-image:url(https://wn.cococica.com/nakama/images/btn/button-regular.png); */
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    /*    border-radius: 4px; */
+
+    background: -moz-linear-gradient(center top, #b6e6fa 0%,#90ddfe 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b6e6fa),color-stop(1, #90ddfe));
+    background: linear-gradient(#b6e6fa, #90ddfe);
+    background-image: -o-linear-gradient(top, #b6e6fa, #90ddfe); // Opera
+    /*IE6 IE7 */
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#b6e6fa, endcolorstr=#90ddfe));
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startcolorstr=#b6e6fa, endcolorstr=#90ddfe))";
+}
+
+/* 戻るボタン */
+a.btn_back {
+    display: block;
+    float:left;
+    margin:0 14px 0 0;
+    height: 22px;
+    width: 110px;
+
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/back.png);
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:11pt;
+    font-weight:bold;
+    text-decoration: none;
+    text-align: center;
+    vertical-align:middle;
+    white-space: nowrap;
+    color:white;
+    cursor:pointer;
+}
+a.btn_back{
+    padding:2px 10px 3px 7px; /* Firefox */
+    line-height:23px; /* Safari */
+}
+*:first-child+html a.btn_back{
+    padding:5px 10px 3px 7px; /* IE7 */
+}
+
+a.btn_back img{
+    margin: 2px 5px 4px 5px;
+    padding: 0;
+    border: none;
+    vertical-align:middle;
+    width: 20px;
+    height: 22px;
+}
+a.btn_back:link {
+    color: #ffffff;
+}
+a.btn_back:visited {
+    color: #ffffff;
+}
+a.btn_back:hover a.btn_back.hover {
+    color: #ffffff;
+    font-weight:bold;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/back_active.png);
+}
+a.btn_back:active {
+    color: #ffffff;
+    font-weight:bold;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/back_active.png);
+}
+
+/* 閉じるボタン */
+a.btn_close {
+    margin-top: 7px;
+    margin-bottom: -4px;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    height: 19px;
+    width: 76px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/close.gif);
+}
+a.btn_close:link {
+    background-image: url(https://wn.cococica.com/nakama/images/btn/close.gif);
+}
+a.btn_close:visited {
+}
+a.btn_close:hover {
+    background-image: url(https://wn.cococica.com/nakama/images/btn/close.gif);
+}
+a.btn_close:active {
+    background-image: url(https://wn.cococica.com/nakama/images/btn/close.gif);
+}
+
+/* アイコン付きリンク */
+/* お知らせ */
+a.link_info {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/headlinks/info.png) left no-repeat;
+}
+/* ログアウト */
+a.link_logout {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/headlinks/lock.png) left no-repeat;
+}
+/* プライバシー */
+a.link_privacy {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/headlinks/shield.png) left no-repeat;
+}
+/* 設定 */
+a.link_conf {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/headlinks/settings-16.png) left no-repeat;
+}
+/* 基本操作説明 */
+a.link_setumei {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/headlinks/lightbulb.png) left no-repeat;
+}
+/* 詳細検索 */
+a.link_search {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/find.png) left no-repeat;
+}
+/* ソート設定 */
+a.link_sort {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/application_put.png) left no-repeat;
+}
+/* 表示設定 */
+a.link_dispcpnf {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/application_view_columns.png) left no-repeat;
+}
+/* CSV出力 */
+a.link_csv {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/page_excel.png) left no-repeat;
+}
+/* 先頭ページ */
+span.nolink_startpage {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_first.png) left no-repeat;
+    color:#aaaaaa;
+}
+a.link_startpage {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_first.png) left no-repeat;
+}
+/* 前ページ */
+span.nolink_prevpage {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_previous.png) left no-repeat;
+    color:#aaaaaa;
+}
+a.link_prevpage {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_previous.png) left no-repeat;
+}
+/* 次ページ */
+span.nolink_nextpage {
+    padding-right:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_next.png) right no-repeat;
+    color:#aaaaaa;
+}
+a.link_nextpage {
+    padding-right:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_next.png) right no-repeat;
+}
+/* 最終ページ */
+span.nolink_lastpage {
+    padding-right:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_last.png) right no-repeat;
+    color:#aaaaaa;
+}
+a.link_lastpage {
+    padding-right:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/resultset_last.png) right no-repeat;
+}
+/* スタッフ表示設定 */
+a.link_staff {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/user.png) left no-repeat;
+}
+/* スケジュール表示切替 */
+a.link_change {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/arrow_refresh.png) left no-repeat;
+}
+
+/* HELP */
+a.link_help {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/icon_question_001_b.gif) left no-repeat;
+}
+
+/* Felica */
+a.link_felica {
+    padding-left:30px;
+    background:url(https://wn.cococica.com/nakama/images/btnicon/kazapon_icon.gif) left no-repeat;
+}
+
+/* キーワード検索項目設定 */
+a.link_searchkeywordconf {
+    padding-left:18px;
+    background:url(https://wn.cococica.com/nakama/images/headlinks/process.png) left no-repeat;
+}
+
+/* 入力画面の検索 */
+a.icon_search img {
+    margin:0 0 0 -3px;
+    padding:1px 0 0 0;
+    text-decoration: none;
+    vertical-align: middle;
+    width:32px;
+    height:32px;
+    border:0px;
+}
+
+/* カレンダー選択 */
+button.icon_carender {
+    margin:0 0 4px -3px;
+    padding:0 0 0 0;
+    background-image: url(https://wn.cococica.com/nakama/images/btnicon/calendar.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-decoration: none;
+    vertical-align: middle;
+    width:21px;
+    height:21px;
+    border:0px;
+}
+
+/* 時間選択 */
+a.icon_time img {
+    margin:0 0 4px -3px;
+    padding:0 0 0 0;
+    text-decoration: none;
+    vertical-align: middle;
+    width:32px;
+    height:32px;
+    border:0px;
+}
+
+/* 辞書選択 */
+a.icon_dic img {
+    margin:0 0 4px -3px;
+    padding:0 0 0 0;
+    text-decoration: none;
+    vertical-align: middle;
+    width:24px;
+    height:24px;
+    border:0px;
+}
+
+.CmdLink:link { color:darkslategray; }
+.CmdLink:visited { color:darkslategray; }
+.CmdLink:hover .CmdLink.hover { color:red; }
+
+/* 注意 */
+.attention {
+    font-size:12pt;
+    font-weight:bold;
+    color:red;
+    text-align:center;
+}
+
+/* メッセージ */
+.message {
+    font-size:12pt;
+    font-weight:bold;
+    color:#333333;
+    text-align:center;
+}
+
+/* メッセージ-左寄せ */
+.message_l {
+    font-size:12pt;
+    font-weight:bold;
+    color:#333333;
+    text-align:left;
+}
+
+/* 印刷メッセージ */
+.print_message {
+    font-size:18pt;
+    font-weight:bold;
+    color:#223a70; /*瑠璃色るりいろ*/
+    text-align:center;
+}
+
+/* 請求処理メッセージ */
+.claim_message {
+    font-size:18pt;
+    font-weight:bold;
+    color:#223a70; /*瑠璃色るりいろ*/
+    text-align:center;
+}
+
+/* 処理中メッセージ */
+.loading_message {
+    font-size:14pt;
+    font-weight:bold;
+    color:#6699FF;
+    text-align:center;
+}
+
+/* 必須 */
+.need {
+    color:red;
+    font-weight:bold;
+}
+
+/* 履歴、最新の文言 ※list.inc で使用。あとで名前変える */
+.textcrimson {
+    color:crimson;
+}
+
+/* 単位 */
+.unit {
+    font-size:6pt;
+    color:gray;
+    vertical-align:bottom;
+}
+
+/* 注意書き */
+.directions {
+    font-size:9pt;
+    color:#474a4d;
+}
+
+/* 案内 */
+.guidance {
+    width:300px;
+    height:52px;
+    border : 1px solid grey;
+    font-size:12pt;
+    font-weight:bold;
+    background-color: #f7f6f5;
+    vertical-align: middle;
+    text-align:center;
+}
+
+/*  必須 */
+TD#Need {
+    color: #ff0000;
+    width: 8px;
+    background-color: #dcdcdc;
+    text-align: center;
+}
+
+
+/* タイトル線 */
+.title_hr {
+    border-width: 2px 0px 0px 0px; /* 太さ */
+    border-style: solid; /* 線種 */
+    border-color: #475166; /* 線色 */
+    height: 5px; /* 高さ */
+}
+.sep_hr {
+    border-width: 1px 0px 0px 0px; /* 太さ */
+    border-style: solid; /* 線種 */
+    border-color: #333333; /* 線色 */
+    height: 1px; /* 高さ */
+}
+.end_hr {
+    border-width: 1px 0px 0px 0px; /* 太さ */
+    border-style: solid; /* 線種 */
+    border-color: #333333; /* 線色 */
+    height: 1px; /* 高さ */
+}
+
+/*  画像編集画面 */
+/* 画像を拡大縮小した際のリサンプリング方法を指定するプロパティ */
+img {
+    -ms-interpolation-mode: bicubic; /* 常に高品質双三次補間モードを使用 */
+}
+
+/*  アップロード宛名印刷 */
+.adress_use {
+    background-color: #ffffff;
+}
+
+.adress_no_use {
+    background-color: lightgrey;
+}
+
+
+/*  ラベル印刷位置イメージ */
+.m_pos {
+    background-color: #000000;
+}
+
+
+/*  履歴比較 */
+/* 比較項目 */
+.compare_item {
+    background-color: gold;
+    color: #333333;
+}
+.compare_item a:link { color: #333333;}
+.compare_item a:visited { color: #333333;}
+.compare_item a:hover { color: #333333;}
+
+/* 比較項目凡例 */
+.compare_item_legend {
+    color: gold;
+}
+
+/* エラーメッセージ  */
+/* ヘッダー部 */
+.errHeader{
+    font-size:110%;             /* フォントサイズ */
+    font-weight:bold;           /* フォントの太さ */
+    color:white;                /* 文字色         */
+    background-color:red;       /* 背景色         */
+    padding: 2px 10px 2px 2px ;         /* 内側余白       */
+    border:1px solid red;
+}
+
+.errMsg {
+    font-size:100%;             /* フォントサイズ */
+    font-weight:normal;         /* フォントの太さ */
+    color:red;                  /* 文字色         */
+}
+
+/* table線あり（太線） */
+.table_linebold {
+    border: 2px #aaaaaa solid;  /* グレー実線 */
+    font-size: 12px;
+    color: #000000;
+    margin-top: 0px;
+    border-spacing:0;
+    border-collapse: collapse;
+    font-family: "ＭＳ ゴシック";
+    background-color:#ffffff;    /* 背景色         */
+}
+
+/* 前回値比較色 */
+.txt_comp_add {color:#CCCCFF} /* 追加 */
+.txt_comp_chg {color:#CCFFCC} /* 変更 */
+.txt_comp_del {color:#FFCCFF} /* 削除 */
+.txt_comp_add {background-color:#CCCCFF} /* 追加 */
+.txt_comp_chg {background-color:#CCFFCC} /* 変更 */
+.txt_comp_del {background-color:#FFCCFF} /* 削除 */
+
+
+/* 点線枠 */
+.dotbox {
+    border:2px;
+    border-style:dotted;  /* 点線 */
+    border-color:red;     /* 赤 */
+}
+
+/* 画像・ロゴベース背景 */
+.bc_img {
+    background-color:#c0c0c0; /* グレー */
+}
+
+/* チェックのみ・チェック以外のボタン色 */
+.select_only_on {
+    background-color:#99FF66;     /* 緑 */
+    width:86px;
+}
+.select_only_off {
+    background-color:buttonface;  /* buttonface */
+    width:86px;
+}
+.select_other_on {
+    background-color:#99FF66;     /* 緑 */
+    width:86px;
+}
+.select_other_off {
+    background-color:buttonface;  /* buttonface */
+    width:86px;
+}
+.select_all {
+    background-color:buttonface;  /* buttonface */
+    width:65px;
+}
+.select_debug {
+    color:aqua;
+    width:64px;
+}
+
+/* ボタン色 */
+/* 削除 */
+.btn_pink {
+    background-color:#ffcccc; /* ピンク */
+    color:red;
+}
+.btn_red {
+    background-color:red;     /* 赤 */
+    color:cornsilk;
+}
+
+/* 承認 */
+.btn_turquoise {
+    background-color:#afeeee; /* 水色 */
+}
+
+/* 否認 */
+.btn_pink2 {
+    background-color:#ffcccc; /* ピンク */
+}
+/* 通常 */
+.btn_normal {
+    background-color:buttonface; /* buttonface */
+}
+
+
+/* イベント参加色 */
+.evt_participation_guide {
+    color:#FFCC99; /* 参加イベント */
+}
+.evt_participation {
+    background-color:#FFCC99; /* 参加イベント */
+}
+.evt_open {
+    color:#FAFAD2; /* 一般 */
+}
+.evt_member {
+    color:#CCFF99; /* 会員のみ */
+}
+
+/* 検索条件の枠線 */
+.condition_frame {
+    border: 1px solid slategray;  /* グレー実線 */
+}
+
+
+/* フォームの要素にうっすらテキストを表示する文字色 */
+.tipped {color: #808080;}
+
+/* 利用サービスのボタン */
+/* お試し */
+.link_otameshi {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/otameshi.gif);
+}
+/* 解約申込 */
+.link_kaiyaku {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/kaiyaku.gif);
+}
+/* 利用開始 */
+.link_begin {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/begin.gif);
+}
+/* 利用終了 */
+.link_end {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/end.gif);
+}
+/* 解約取消 */
+.link_cancel {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/cancel.gif);
+}
+/* 利用再開 */
+.link_restart {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/restart.gif);
+}
+/* 利用申込 */
+.link_mousikomi {
+    display:block;
+    width: 160px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://wn.cococica.com/nakama/images/btn/mousikomi.gif);
+}
